@@ -1,7 +1,11 @@
-import React from "react";
+import Book from "./components/Book";
 
 const App = () => {
-  return <div className="overflow-x-hidden">App</div>;
+  return (
+    <div className="w-full overflow-x-hidden">
+      <Book id={0} />
+    </div>
+  );
 };
 
 export default App;
