@@ -5,6 +5,11 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Book from "./components/Book.jsx";
 import Books from "./components/Books.jsx";
+import Authors from "./components/Authors.jsx";
+import Author from "./components/Author.jsx";
+import Home from "./components/Home.jsx";
+import Direction from "./components/Direction.jsx";
+import Directions from "./components/Directions.jsx";
 
 const router = createBrowserRouter([
   {
@@ -13,11 +18,31 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/smery",
+        element: <Directions />,
+      },
+      {
+        path: "/smery/:name",
+        element: <Direction />,
+      },
+      {
+        path: "/books",
         element: <Books />,
       },
       {
-        path: "/book/:id",
+        path: "/books/:name",
         element: <Book />,
+      },
+      {
+        path: "/authors",
+        element: <Authors />,
+      },
+      {
+        path: "/authors/:name",
+        element: <Author />,
       },
     ],
   },

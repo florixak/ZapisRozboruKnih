@@ -1,9 +1,10 @@
 import { books } from "../data";
 import { useParams } from "react-router-dom";
+import { deformatName } from "../utils";
 
 const Book = () => {
-  const { id } = useParams();
-  const book = books.find((book) => book.id === parseInt(id));
+  const { name } = useParams();
+  const book = books.find((book) => deformatName(book.title) === name);
   return (
     <div
       key={book.id}
@@ -40,11 +41,12 @@ const Book = () => {
 
       <div className="ml-5 flex flex-col gap-1">
         <p>
-          <span className="font-bold">Téma:</span> {book.themes.join(", ")}
+          <span className="font-bold">Téma:</span>{" "}
+          {book.themes && book.themes.join(", ")}
         </p>
         <p>
           <span className="font-bold">Časoprostor:</span>{" "}
-          {book.space_time.join(", ")}
+          {book.space_time && book.space_time.join(", ")}
         </p>
         <p>
           <span className="font-bold">Kompozice:</span> {book.composition}
@@ -57,14 +59,15 @@ const Book = () => {
       <div className="ml-5 flex flex-col gap-1">
         <span className="font-bold">Hlavní postavy:</span>
         <ul className="ml-5 list-disc text-lg">
-          {book.main_characters.map((character, index) => {
-            return (
-              <li key={index} className="my-2 ml-5">
-                <span className="font-bold">{character.name}</span>:{" "}
-                <p>{character.description}</p>
-              </li>
-            );
-          })}
+          {book.main_characters &&
+            book.main_characters.map((character, index) => {
+              return (
+                <li key={index} className="my-2 ml-5">
+                  <span className="font-bold">{character.name}</span>:{" "}
+                  <p>{character.description}</p>
+                </li>
+              );
+            })}
         </ul>
       </div>
       <div className="my-10 flex flex-col gap-5">
