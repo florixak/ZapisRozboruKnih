@@ -6,7 +6,7 @@ const Home = () => {
       <h1 className="text-3xl font-bold">Vyber si co chceš procvičit:</h1>
       <div className="flex flex-row gap-10 text-lg">
         <Link className="border-2 p-2" to={"/smery"}>
-          Umělecké směry
+          Umělecké směry a období
         </Link>
         <Link className="border-2 p-2" to={"/authors"}>
           Autoři
