@@ -4,7 +4,7 @@ const hoverStyle = "hover:text-blue-500 hover:underline";
 
 const App = () => {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center overflow-x-hidden">
+    <div className="flex h-auto w-full flex-col items-center justify-center overflow-x-hidden dark:bg-gray-800 dark:text-white">
       <div className="my-8 flex flex-col items-center gap-5 text-xl">
         <Link to="/" className={hoverStyle}>
           Home

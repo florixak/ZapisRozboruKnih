@@ -35,14 +35,6 @@ const Books = () => {
               <p>
                 <span className="text-lg font-bold">Autor:</span> {book.author}
               </p>
-              <p>
-                <span className="text-lg font-bold">Rok vydání:</span>{" "}
-                {book.year_of_publication}
-              </p>
-              <p>
-                <span className="text-lg font-bold">Počet stran:</span>{" "}
-                {book.pages}
-              </p>
             </div>
           );
         })}

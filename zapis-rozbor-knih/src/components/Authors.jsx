@@ -35,6 +35,10 @@ const Authors = () => {
               >
                 {author.name}
               </h2>
+              <p>
+                {author.works &&
+                  author.works.map((item) => <p key={item}>{item.title}</p>)}
+              </p>
             </div>
           );
         })}

@@ -1,10 +1,17 @@
 import { books } from "../data";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { deformatName } from "../utils";
 
 const Book = () => {
   const { name } = useParams();
   const book = books.find((book) => deformatName(book.title) === name);
+  const navigate = useNavigate();
+
+  const handleClick = (name) => {
+    const newPath = `/authors/${deformatName(name)}`;
+    navigate(newPath);
+  };
+
   return (
     <div
       key={book.id}
@@ -12,9 +19,15 @@ const Book = () => {
     >
       <h2 className="text-5xl">{book.title}</h2>
       <div>
-        <p className="ml-5">
-          <span className="font-bold">Autor:</span> {book.author}
-        </p>
+        <div className="ml-5 flex gap-2">
+          <span className="font-bold">Autor:</span>
+          <p
+            onClick={() => handleClick(book.author)}
+            className="cursor-pointer hover:text-blue-500 hover:underline"
+          >
+            {book.author}
+          </p>
+        </div>
         <p className="ml-5">
           <span className="font-bold">Rok vydání:</span>{" "}
           {book.year_of_publication}
