@@ -5,14 +5,14 @@ import { deformatName } from "../utils";
 const Direction = () => {
   const { name } = useParams();
   const direction = art_directions.find(
-    (dir) => deformatName(dir.title) === name,
+    (dir) => deformatName(dir.name) === name,
   );
   return (
     <div
       key={direction.id}
       className="m-auto flex h-full w-full max-w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
     >
-      <h2 className="text-5xl">{direction.title}</h2>
+      <h2 className="text-5xl">{direction.name}</h2>
       <div className="flex flex-col gap-10">
         <p>
           <span className="font-bold">Období:</span> {direction.time_period}

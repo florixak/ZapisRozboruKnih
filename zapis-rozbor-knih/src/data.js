@@ -1,97 +1,139 @@
+import { deformatName } from "./utils";
+
 export const books = [
   {
-    id: 1,
-    title: "Lakomec",
+    name: "Lakomec",
     author: "Moliere",
+    year_of_publication: 1668,
+    pages: 128,
+    literary_genre: "Komedie",
+    literary_form: "Próza",
+    literary_species: "Drama",
+    themes: ["Peníze", "Touha po penězích", "Láska", "Chamtivost"],
+    space_time: ["Francie, Paříž, Dům Harpagona", "17. století (1670)"],
+    composition: "Chronologická",
+    narrator: "Nevyskytuje se",
+    tropy: [
+      "Personifikace (přikládání lidských vlastností neživým věcem a zvířatům)",
+    ],
+    figury: [],
+    main_characters: [
+      {
+        name: "Harpagon",
+        description:
+          "Starý 60ti letý lichvář a vdovec, Jediné na co myslí jsou peníze a on sám. Chamtivý, Bezcitný, Protivný, Jméno odvozeno od latinského loupit",
+      },
+      {
+        name: "Kleantes",
+        description:
+          "Syn Harpagona, Pravý opak Harpagona, Štědrý, Mladý, Skromný, Hodný, Miluje chudou dívku Marianu",
+      },
+      {
+        name: "Mariana",
+        description:
+          "Chudá, Mladá, Krásná dívka, Miluje Kleanta (čistá láska), Harpagon se přesto o ní snaží",
+      },
+      {
+        name: "Čipera (Kleantův sluha)",
+        description:
+          "Věrný, Pomáhá Kleantovi, Ukradne Harpagonovi truhlu s penězi",
+      },
+      {
+        name: "Eliška",
+        description: "Dcera Harpagona, Miluje Valéra",
+      },
+      {
+        name: "Valér",
+        description:
+          "Sluha Harpagona, Miluje Elišku, Utajený syn šlechtice Anselma",
+      },
+      {
+        name: "Anselm",
+        description:
+          "Bohatý šlechtic, Otec Valéra a Mariany, Má si vzít kvůli Harpagonovi Elišku proti její vůli",
+      },
+      {
+        name: "Frosina",
+        description: "Dohazovačka",
+      },
+    ],
+    plot_summary:
+      "Děj se odehrává ve francouzském hlavním městě Paříži převážně v Harpagonové domě.",
+    literary_context:
+      "Inspirace od Komedie o hrnci od Plauta. Dílo bylo poprvé uvedeno ve francouzském divadle Palais-Royal. Divadelní i filmové zpracování.",
+    main_message:
+      "Varování před penězi, jak deformují charakter, ničí vztahy a citové vazby. Zesměšňuje a kritizuje vyšší vrstvy společnosti.",
   },
   {
-    id: 2,
-    title: "Médea",
+    name: "Médea",
     author: "Euripides",
   },
   {
-    id: 3,
-    title: "Máj",
+    name: "Máj",
     author: "Karel Hynek Mácha",
   },
   {
-    id: 4,
-    title: "Kytice",
+    name: "Kytice",
     author: "Karel Jaromír Erben",
   },
   {
-    id: 5,
-    title: "Povídky malostranské",
-    author: "Jan Neruda",
-  },
-  {
-    id: 6,
-    title: "Lucerna",
+    name: "Lucerna",
     author: "Alois Jirásek",
   },
   {
-    id: 7,
-    title: "Obraz Doriana Graye",
+    name: "Obraz Doriana Graye",
     author: "Oscar Wilde",
   },
   {
-    id: 8,
-    title: "Havran",
+    name: "Havran",
     author: "Edgar Allan Poe",
   },
   {
-    id: 9,
-    title: "Král Lávra",
+    name: "Jáma a kyvadlo a jiné povídky",
+    author: "Edgar Allan Poe",
+  },
+  {
+    name: "Král Lávra",
     author: "Karel Havlíček Borovský",
   },
   {
-    id: 10,
-    title: "Kulička",
+    name: "Kulička",
     author: "Guy de Maupassant",
   },
   {
-    id: 11,
-    title: "Revizor",
+    name: "Revizor",
     author: "Nikolaj Vasiljevič Gogol",
   },
   {
-    id: 12,
-    title: "O myších a lidech",
+    name: "O myších a lidech",
     author: "John Steinback",
   },
   {
-    id: 13,
-    title: "Pes baskervillský",
+    name: "Pes baskervillský",
     author: "Arthur Conan Doyle",
   },
   {
-    id: 14,
-    title: "451 stupňů Fahrenheita",
+    name: "451 stupňů Fahrenheita",
     author: "Raymond Douglas Bradbury",
   },
   {
-    id: 15,
-    title: "Malý princ",
+    name: "Malý princ",
     author: "Antoine De Saint-Exupéry",
   },
   {
-    id: 16,
-    title: "Edison",
+    name: "Edison",
     author: "Vítěslav Nezval",
   },
   {
-    id: 17,
-    title: "Proměna",
+    name: "Proměna",
     author: "Franz Kafka",
   },
   {
-    id: 18,
-    title: "Krysař",
+    name: "Krysař",
     author: "Viktor Dyk",
   },
   {
-    id: 19,
-    title: "Bílá Nemoc",
+    name: "Bílá Nemoc",
     author: "Karel Čapek",
     year_of_publication: 1937,
     pages: 128,
@@ -140,8 +182,7 @@ export const books = [
       "Poukázání na nesmyslnost války a varování před hrozbou prosazujícího se fašizmu. Kontrast hodnot demokracie a diktatury.",
   },
   {
-    id: 20,
-    title: "R.U.R. (Rossumovi Univerzální Roboti)",
+    name: "R.U.R. (Rossumovi Univerzální Roboti)",
     author: "Karel Čapek",
     year_of_publication: 1920,
     pages: 96,
@@ -204,26 +245,39 @@ export const authors = [
   {
     id: 1,
     name: "Moliere",
-    birth_year: 1810,
+    birth_year: 1622,
     art_direction: "Klasicismus",
     interest: [
-      "Spisovatel, překladatel",
-      "Psal do novin, dělal amatérské divadlo.",
-      "Studoval na gymnáziu, později filozofii a práva.",
-      "Jediným pravým českým romantickým hrdinou.",
-      "Kladl důraz na cit, individualitu, tajemství a prožitky.",
+      "Slavný francouzský dramatik, herec (hrál ve vlastních hrách)",
+      "33 divadelních her",
+      "Psal v nízkém žánru (komedie)",
+      "Pokládán za Zakladatele moderní francouzské komedie",
+      "Pseudonym - Jean-Baptiste Poquel (herectví nebylo moc uznáváno)",
+      "Cestoval a později si založil vlastní divadlo",
+      "Tvořil za vlády Ludvíka XIV., byl pozván na dvůr",
+      "Zemřel na tuberkulózu na scéně během hry (Zdravý nemocný) => odmítli ho pohřbít",
     ],
-    what_he_wrote: ["Próza", "Drama", "Poezie", "(Všestranný spisovatel)"],
-    authors: [
-      "Josef Jungmann (spisovatel, jazykovědec - Slovník česko německý)",
-      "Karel Jaromír Erben (Kytice)",
-      "Josef Kajetán Tyl (Fidlovačka aneb Žádný hněv a žádná rvačka)",
+    main_chars: [
+      "Kritizoval církev a šlechty / vyšších vrstev.",
+      "Také kritizoval lidské vlastnosti (Lakomec) a snobství, doktory/lékaře.",
+      "Pravidelná herecká účast ve svých dílech.",
+      "Celá jeho tvorba ovlivněna měšťanským původem.",
     ],
+    what_he_wrote: ["Nízký žánr (drama)", "Komedie", "Frašky"],
+    authors: ["Jean Racine", "Piere Cornaille", "Jean de la Fontaine"],
     works: [
       {
-        id: 1,
-        title: "Máj",
-        url: "/books/5",
+        name: "Lakomec (próza)",
+        url: "/books/" + deformatName("Lakomec"),
+      },
+      {
+        name: "Tartuffe neboli Pokrytec (poezie)",
+      },
+      {
+        name: "Misantrop (poezie)",
+      },
+      {
+        name: "Zdravý nemocný (próza)",
       },
     ],
   },
@@ -233,23 +287,30 @@ export const authors = [
     birth_year: 1810,
     art_direction: "Antická literatura",
     interest: [
-      "Spisovatel, překladatel",
-      "Psal do novin, dělal amatérské divadlo.",
-      "Studoval na gymnáziu, později filozofii a práva.",
-      "Jediným pravým českým romantickým hrdinou.",
-      "Kladl důraz na cit, individualitu, tajemství a prožitky.",
+      "Starořecký dramatik, básník, filozof",
+      "Působil v 5. st. před naším letopočtem",
+      "Velmi vzdělaný",
+      "Za svého života byl kritizován",
     ],
-    what_he_wrote: ["Próza", "Drama", "Poezie", "(Všestranný spisovatel)"],
-    authors: [
-      "Josef Jungmann (spisovatel, jazykovědec - Slovník česko německý)",
-      "Karel Jaromír Erben (Kytice)",
-      "Josef Kajetán Tyl (Fidlovačka aneb Žádný hněv a žádná rvačka)",
+    main_chars: [
+      "Kritizoval aktuální problémy v Athénách",
+      "Témata her byly politika, kultura a další",
     ],
+    what_he_wrote: ["Drama", "Tragédie"],
+    authors: ["Sofoklés", "Aischylos", "Sokratés"],
     works: [
       {
-        id: 1,
-        title: "Máj",
-        url: "/books/5",
+        name: "Médea",
+        url: "/books/" + deformatName("Médea"),
+      },
+      {
+        name: "Šílený Herakles",
+      },
+      {
+        name: "Elektra",
+      },
+      {
+        name: "Helena",
       },
     ],
   },
@@ -259,13 +320,19 @@ export const authors = [
     birth_year: 1810,
     art_direction: "Romantismus",
     interest: [
-      "Spisovatel, překladatel",
+      "Český básník, prozaik, herec, dramatik a největší představil českého romantismu",
       "Psal do novin, dělal amatérské divadlo.",
+      "Zakladatel české moderní poezie.",
       "Studoval na gymnáziu, později filozofii a práva.",
       "Jediným pravým českým romantickým hrdinou.",
-      "Kladl důraz na cit, individualitu, tajemství a prožitky.",
     ],
-    what_he_wrote: ["Próza", "Drama", "Poezie", "(Všestranný spisovatel)"],
+    main_chars: [
+      "Jeho díla byla ovlivněna jeho životem a láskou k Julii (Máj).",
+      "Kladl důraz na cit, individualitu, tajemství a prožitky.",
+      "Romantický hrdina se bouří proti společnosti, silný člověk, většinou loupežník, zbojník, tulák, žebrák.",
+      "Romantismus se projevuje i v popisu jeho přírody a krajiny.",
+    ],
+    what_he_wrote: ["Próza", "Drama", "Poezie"],
     authors: [
       "Josef Jungmann (spisovatel, jazykovědec - Slovník česko německý)",
       "Karel Jaromír Erben (Kytice)",
@@ -273,20 +340,20 @@ export const authors = [
     ],
     works: [
       {
-        id: 1,
-        title: "Máj",
-        url: "/books/5",
+        name: "Máj",
+        url: "/books/" + deformatName("Máj"),
+      },
+      {
+        name: "Cikáni",
+      },
+      {
+        name: "Obrazy ze života mého",
       },
     ],
   },
   {
     id: 4,
     name: "Karel Jaromír Erben",
-    birth_year: 1810,
-  },
-  {
-    id: 5,
-    name: "Jan Neruda",
     birth_year: 1810,
   },
   {
@@ -364,15 +431,20 @@ export const authors = [
 export const art_directions = [
   {
     id: 1,
-    title: "Renesance",
+    name: "Antická literatura",
+    time_period: "",
   },
   {
     id: 2,
-    title: "Klasicismus",
+    name: "Renesance",
   },
   {
     id: 3,
-    title: "Národní obrození",
+    name: "Klasicismus",
+  },
+  {
+    id: 4,
+    name: "Národní obrození",
     time_period: "Konec 18. a první polovina 19. století",
     what_is_it: "Etapa a proces formování novodobého českého národa.",
     characteristic_features: [
@@ -424,7 +496,7 @@ export const art_directions = [
   },
   {
     id: 4,
-    title: "Romantismus",
+    name: "Romantismus",
     time_period: "Konec 18. a první polovina 19. století",
     characteristic_features: [
       "City a emoce",
@@ -435,6 +507,7 @@ export const art_directions = [
       "Individualita, tvůrčí svoboda",
       "Romatický hrdina = bouří se proti společnosti, trpí, vyděděnec (většinou tulák, kat, poutník, zloděj...)",
     ],
+    main_chars: [""],
     genres: [
       "Lyrická poezie",
       "Básnická povídka (poema)",

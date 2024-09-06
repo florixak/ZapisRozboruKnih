@@ -4,7 +4,7 @@ import { deformatName } from "../utils";
 
 const Book = () => {
   const { name } = useParams();
-  const book = books.find((book) => deformatName(book.title) === name);
+  const book = books.find((book) => deformatName(book.name) === name);
   const navigate = useNavigate();
 
   const handleClick = (name) => {
@@ -15,9 +15,9 @@ const Book = () => {
   return (
     <div
       key={book.id}
-      className="m-auto flex h-full w-full max-w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
+      className="m-auto flex h-full w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
     >
-      <h2 className="text-5xl">{book.title}</h2>
+      <h2 className="text-5xl">{book.name}</h2>
       <div>
         <div className="ml-5 flex gap-2">
           <span className="font-bold">Autor:</span>
@@ -54,18 +54,23 @@ const Book = () => {
 
       <div className="ml-5 flex flex-col gap-1">
         <p>
-          <span className="font-bold">Téma:</span>{" "}
-          {book.themes && book.themes.join(", ")}
-        </p>
-        <p>
           <span className="font-bold">Časoprostor:</span>{" "}
-          {book.space_time && book.space_time.join(", ")}
+          {book.space_time &&
+            book.space_time.map((spaceTime) => (
+              <li className="ml-10" key={spaceTime}>
+                {spaceTime}
+              </li>
+            ))}
         </p>
         <p>
           <span className="font-bold">Kompozice:</span> {book.composition}
         </p>
         <p>
           <span className="font-bold">Vypravěč:</span> {book.narrator}
+        </p>
+        <p>
+          <span className="font-bold">Téma:</span>{" "}
+          {book.themes && book.themes.join(", ")}
         </p>
       </div>
 
@@ -83,15 +88,15 @@ const Book = () => {
             })}
         </ul>
       </div>
-      <div className="my-10 flex flex-col gap-5">
-        <p className="ml-5">
+      <div className="ml-5 flex flex-col gap-5">
+        <p className="flex flex-col">
           <span className="font-bold">Děj:</span> {book.plot_summary}
         </p>
-        <p className="ml-5">
+        <p className="flex flex-col">
           <span className="font-bold">Literární kontext:</span>{" "}
           {book.literary_context}
         </p>
-        <p className="ml-5">
+        <p className="flex flex-col">
           <span className="font-bold">Hlavní myšlenka:</span>{" "}
           {book.main_message}
         </p>
