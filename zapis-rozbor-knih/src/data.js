@@ -284,7 +284,7 @@ export const authors = [
   {
     id: 2,
     name: "Euripides",
-    birth_year: 1810,
+    birth_year: "5. st. př. n. l.",
     art_direction: "Antická literatura",
     interest: [
       "Starořecký dramatik, básník, filozof",
@@ -321,14 +321,16 @@ export const authors = [
     art_direction: "Romantismus",
     interest: [
       "Český básník, prozaik, herec, dramatik a největší představil českého romantismu",
+      "Zakladatel české moderní poezie. (přinesl nové témata, styly...)",
+      "Z chudé rodiny, vystudoval filozofii a práva",
       "Psal do novin, dělal amatérské divadlo.",
-      "Zakladatel české moderní poezie.",
       "Studoval na gymnáziu, později filozofii a práva.",
       "Jediným pravým českým romantickým hrdinou.",
     ],
     main_chars: [
-      "Jeho díla byla ovlivněna jeho životem a láskou k Julii (Máj).",
-      "Kladl důraz na cit, individualitu, tajemství a prožitky.",
+      "Hodně se projevuje romantismus:",
+      "Emoce a city, fantazie, mysterióznost, prostředí (příroda).",
+      "Často obsahovala prvky osamocení, touhy po svobodě (individuality), lásky",
       "Romantický hrdina se bouří proti společnosti, silný člověk, většinou loupežník, zbojník, tulák, žebrák.",
       "Romantismus se projevuje i v popisu jeho přírody a krajiny.",
     ],
@@ -354,77 +356,320 @@ export const authors = [
   {
     id: 4,
     name: "Karel Jaromír Erben",
-    birth_year: 1810,
+    birth_year: "1811-1870",
+    art_direction: "Národní obrození",
+    interest: [
+      "Český básník, historik, sběratel ústní lidové slovesnoti, překladatel, novinář...",
+      "Narozen v rodině kronikáře, vystudoval práva a filozofii",
+      "B době studií se seznámil s Františkem Palackým, s nímž pak celý život spolupracoval.",
+      "Je spojován s Romantismem, i když nerad",
+      "3. fáze Národního obrození",
+      "Jako sekretář Českého muzea sbíral po venkovských archivech materiál, lidové písně, pohádky...",
+      "Archivář města Prahy",
+      "Sběratel ústní lidové slovesnosti = písně, pohádky, pověsti, říkadla",
+      "Ovlivněn bratovou smrtí po porodu -> častý motiv mrtvého dítětě v dílech",
+    ],
+    main_chars: [
+      "Folklórní prvky (často čerpal inspiraci z lidových pověstí, pohádek, písní...)",
+      "Baladická forma (často balady - báseň s pochmurným dějem a koncem)",
+      "Symbolismus",
+      "Témata trestu a viny",
+      "Osud a nevyhnutelnost",
+      "Rodina a vztahy",
+      "Příroda a nadpřirozeno",
+    ],
+    what_he_wrote: ["Básně, Balady (poezii)", "Pohádky (prózu)", "Pověsti"],
+    authors: [
+      "Josef Kajetán Tyl",
+      "Karel Hynek Mácha",
+      "Božena Němcová",
+      "George Gordon Byron",
+      "Victor Hugo",
+    ],
+    works: [
+      {
+        name: "Kytice",
+        url: "/books/" + deformatName("Kytice"),
+      },
+      {
+        name: "Zlatovláska",
+      },
+      {
+        name: "Tři zlaté vlasy děda Vševěda",
+      },
+      {
+        name: "Dlouhý široký a bystrozraký",
+      },
+      {
+        name: "Pták ohnivák",
+      },
+    ],
   },
   {
     id: 6,
     name: "Alois Jirásek",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "Lucerna",
+        url: "/books/" + deformatName("Lucerna"),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 7,
     name: "Oscar Wilde",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "Obraz Doriana Graye",
+        url: "/books/" + deformatName("Obraz Doriana Graye"),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 8,
     name: "Edgar Allan Poe",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "Havran",
+        url: "/books/" + deformatName("Havran"),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 9,
     name: "Karel Havlíček Borovský",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 10,
     name: "Guy de Maupassant",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 11,
     name: "Nikolaj Vasiljevič Gogol",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 12,
     name: "John Steinback",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 13,
     name: "Arthur Conan Doyle",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 14,
     name: "Raymond Douglas Bradbury",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 15,
     name: "Antoine De Saint-Exupéry",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 16,
     name: "Vítěslav Nezval",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 17,
     name: "Franz Kafka",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 18,
     name: "Viktor Dyk",
-    birth_year: 1810,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
   {
     id: 19,
     name: "Karel Čapek",
-    birth_year: 1890,
+    birth_year: "",
+    art_direction: "",
+    interest: [],
+    main_chars: [],
+    what_he_wrote: [],
+    authors: [],
+    works: [
+      {
+        name: "",
+        url: "/books/" + deformatName(""),
+      },
+      {
+        name: "",
+      },
+    ],
   },
 ];
 
@@ -446,7 +691,7 @@ export const art_directions = [
     id: 4,
     name: "Národní obrození",
     time_period: "Konec 18. a první polovina 19. století",
-    what_is_it: "Etapa a proces formování novodobého českého národa.",
+    what_is_it: "Kulturní a politické hnutí.",
     characteristic_features: [
       "Snaha obnovit českou kulturu.",
       "Hlavním úkolem bylo pozvednutí českého jazyka.",
@@ -506,6 +751,9 @@ export const art_directions = [
       "Příroda",
       "Individualita, tvůrčí svoboda",
       "Romatický hrdina = bouří se proti společnosti, trpí, vyděděnec (většinou tulák, kat, poutník, zloděj...)",
+      "(v české literatuře se nikdy moc nerozvinul)",
+      "Architektura: čerpá z prvků gotiky",
+      "Hudba: Antonín Dvořák, Bedřich Smetana",
     ],
     main_chars: [""],
     genres: [
