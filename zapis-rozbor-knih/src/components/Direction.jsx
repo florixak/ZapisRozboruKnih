@@ -32,6 +32,26 @@ const Direction = () => {
               ))}
           </div>
         </div>
+        <div>
+          <span className="font-bold">Architektura:</span>{" "}
+          <div className="ml-5">
+            {direction.architecture &&
+              direction.architecture.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
+          </div>
+        </div>
+
+        <div>
+          <span className="font-bold">Hudba:</span>{" "}
+          <div className="ml-5">
+            {direction.music &&
+              direction.music.map((feature) => (
+                <li key={feature}>{feature}</li>
+              ))}
+          </div>
+        </div>
+
         {direction.phases && (
           <div className="flex flex-col gap-3">
             <div>

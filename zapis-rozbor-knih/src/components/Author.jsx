@@ -14,14 +14,14 @@ const Author = () => {
   return (
     <div
       key={author.id}
-      className="m-auto flex h-full w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
+      className="m-auto flex h-full w-[1000px] flex-col items-start justify-center gap-10 border p-4 py-12 text-xl"
     >
-      <h2 className="my-auto flex flex-row items-center gap-5 text-5xl">
+      <h2 className="my-auto flex flex-row items-center gap-5 text-5xl font-bold">
         {author.name} <span className="text-base">({author.birth_year})</span>
       </h2>
       <div className="flex flex-col gap-10">
         <div className="flex flex-row gap-1">
-          <span className="font-bold">Období:</span>
+          <span className="font-bold underline">Období:</span>
           <p
             className="cursor-pointer hover:text-blue-500 hover:underline"
             onClick={() => handleClick("/smery/" + author.art_direction)}
@@ -31,7 +31,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold">Život:</span>
+          <span className="font-bold underline">Život:</span>
           <ul>
             {author.interest &&
               author.interest.map((interest) => (
@@ -43,7 +43,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold">Hlavní znaky:</span>
+          <span className="font-bold underline">Hlavní znaky:</span>
           <ul>
             {author.main_chars &&
               author.main_chars.map((char) => (
@@ -55,7 +55,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold">Co psal:</span>
+          <span className="font-bold underline">Co psal:</span>
           <ul>
             {author.what_he_wrote &&
               author.what_he_wrote.map((item) => (
@@ -67,7 +67,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold">Díla:</span>
+          <span className="font-bold underline">Díla:</span>
           <ul>
             {author.works &&
               author.works.map((work) => (
@@ -83,7 +83,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold">Soudobí autoři:</span>
+          <span className="font-bold underline">Soudobí autoři:</span>
           <ul>
             {author.authors &&
               author.authors.map((author) => (
