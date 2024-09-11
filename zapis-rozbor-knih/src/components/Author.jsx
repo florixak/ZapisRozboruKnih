@@ -32,7 +32,7 @@ const Author = () => {
 
         <div>
           <span className="font-bold underline">Život:</span>
-          <ul>
+          <ul className="flex flex-col gap-1">
             {author.interest &&
               author.interest.map((interest) => (
                 <li key={interest} className="ml-10 list-disc">
