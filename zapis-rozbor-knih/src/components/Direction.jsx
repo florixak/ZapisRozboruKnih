@@ -33,24 +33,37 @@ const Direction = () => {
           </div>
         </div>
         <div>
-          <span className="font-bold">Architektura:</span>{" "}
+          <span className="font-bold">Žánry:</span>{" "}
           <div className="ml-5">
-            {direction.architecture &&
-              direction.architecture.map((feature) => (
+            {direction.genres &&
+              direction.genres.map((feature) => (
                 <li key={feature}>{feature}</li>
               ))}
           </div>
         </div>
+        {direction.architecture && (
+          <div>
+            <span className="font-bold">Architektura:</span>{" "}
+            <div className="ml-5">
+              {direction.architecture &&
+                direction.architecture.map((feature) => (
+                  <li key={feature}>{feature}</li>
+                ))}
+            </div>
+          </div>
+        )}
 
-        <div>
-          <span className="font-bold">Hudba:</span>{" "}
-          <div className="ml-5">
-            {direction.music &&
-              direction.music.map((feature) => (
-                <li key={feature}>{feature}</li>
-              ))}
+        {direction.music && (
+          <div>
+            <span className="font-bold">Hudba:</span>{" "}
+            <div className="ml-5">
+              {direction.music &&
+                direction.music.map((feature) => (
+                  <li key={feature}>{feature}</li>
+                ))}
+            </div>
           </div>
-        </div>
+        )}
 
         {direction.phases && (
           <div className="flex flex-col gap-3">
@@ -82,28 +95,28 @@ const Direction = () => {
             </div>
           </div>
         )}
-        {direction.main_representatives && (
+        {direction.main_representatives_object && (
           <div className="flex flex-col">
             <span className="font-bold">Představitelé:</span>{" "}
             <div className="ml-5">
               <div className="flex flex-col gap-2">
                 <div>
-                  {direction.main_representatives.en && (
+                  {direction.main_representatives_object.en && (
                     <p className="font-bold">Anglie:</p>
                   )}
-                  {direction.main_representatives.en &&
-                    direction.main_representatives.en.map((rep) => (
+                  {direction.main_representatives_object.en &&
+                    direction.main_representatives_object.en.map((rep) => (
                       <li key={rep} className="ml-5">
                         {rep}
                       </li>
                     ))}
                 </div>
                 <div>
-                  {direction.main_representatives.fr && (
+                  {direction.main_representatives_object.fr && (
                     <p className="font-bold">Francie:</p>
                   )}
-                  {direction.main_representatives.fr &&
-                    direction.main_representatives.fr.map((rep) => (
+                  {direction.main_representatives_object.fr &&
+                    direction.main_representatives_object.fr.map((rep) => (
                       <li key={rep} className="ml-5">
                         {rep}
                       </li>
@@ -111,11 +124,11 @@ const Direction = () => {
                 </div>
 
                 <div>
-                  {direction.main_representatives.usa && (
+                  {direction.main_representatives_object.usa && (
                     <p className="font-bold">USA:</p>
                   )}
-                  {direction.main_representatives.usa &&
-                    direction.main_representatives.usa.map((rep) => (
+                  {direction.main_representatives_object.usa &&
+                    direction.main_representatives_object.usa.map((rep) => (
                       <li key={rep} className="ml-5">
                         {rep}
                       </li>
@@ -123,11 +136,11 @@ const Direction = () => {
                 </div>
 
                 <div>
-                  {direction.main_representatives.cz && (
+                  {direction.main_representatives_object.cz && (
                     <p className="font-bold">Česko:</p>
                   )}
-                  {direction.main_representatives.cz &&
-                    direction.main_representatives.cz.map((rep) => (
+                  {direction.main_representatives_object.cz &&
+                    direction.main_representatives_object.cz.map((rep) => (
                       <li key={rep} className="ml-5">
                         {rep}
                       </li>
@@ -135,6 +148,18 @@ const Direction = () => {
                 </div>
               </div>
             </div>
+          </div>
+        )}
+        {direction.main_representatives_array && (
+          <div className="flex flex-col">
+            <span className="font-bold">Představitelé:</span>{" "}
+            {direction.main_representatives_array.map((rep) => {
+              return (
+                <li key={rep} className="ml-5">
+                  {rep}
+                </li>
+              );
+            })}
           </div>
         )}
       </div>

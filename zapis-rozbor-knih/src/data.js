@@ -936,13 +936,83 @@ export const authors = [
 export const art_directions = [
   {
     name: "Antická literatura",
-    time_period: "",
-  },
-  {
-    name: "Renesance",
+    time_period: "1200 př.n.l.-336 př.n.l.",
+    characteristic_features: [
+      "Literatura vznikající ve starověkém Řecku a Římě",
+      "Dělila se na 4 období, (1. Předarchaické, 2. Archaické, 3. Klasické, 4. Helenistické)",
+      "Začali se zde vymezovat jednotlivé žánry (epos, lyrika, drama)",
+      "Čerpá témata z mytologie, náboženství, končí tragicky, směli hrát pouze 3 herci",
+    ],
+    architecture: [],
+    genres: [
+      "Epos - rozsáhlá epická báseň",
+      "Ódy - slavnostní básně, oslavující osobnost, událost, vlastnost",
+      "Elegie - žalozpěvy",
+      "Bajky - zvířecí příběhy s morální pointou a poučením na konci",
+    ],
+    common_themes: [],
+    main_representatives_array: [
+      "Homér (Ilias a Odysseia)",
+      "Euripides",
+      "Sofokles",
+      "Sapfo (bajky)",
+      "Aischylos",
+      "Sokrates",
+      "Platon",
+      "Herodotos",
+    ],
+    concepts: [],
   },
   {
     name: "Klasicismus",
+    time_period: "17. století až do 18. století",
+    characteristic_features: [
+      "Umělecký směr, který vznikl v 17. století v Itálii trvající do 18. století, avšak se nejvíce rozmohl ve Francii",
+      "Církev byla terčem kritiky",
+      "Platili v něm velmi přísná pravidla pro literaturu",
+      "Literatura rozdělena na dva směry/žánry NÍZKÝ (komedie, frašky, bajky, satiry) a VYSOKÝ (eposy, ódy, hymny, tragédie)",
+      "Trojjednota - pravidlo tří jednot (jedno místo, jedno dějství, jedna doba)",
+      "Filozofický směr osvícenství",
+      "Klasický = výborný, dokonalý",
+      "Inspiroval se antikou, obdiv k antice",
+      "Nastal po Baroku",
+    ],
+    architecture: [
+      "Jednoduchost",
+      "Trojúhelníkové štíty",
+      "Antické sloupy",
+      "Staví se: Banky, Úřady, Nemocnice, Divadla",
+    ],
+    music: [
+      "Pohodová",
+      "Zábavná",
+      "Odpočinková",
+      "Jednoduché melodie, snadno zapamatovatelné",
+      "Beethoven, Mozart",
+    ],
+    genres: [
+      "Epos",
+      "Óda",
+      "Hymna",
+      "Tragédie",
+      "Komedie",
+      "Bajka",
+      "Satira",
+      "...",
+    ],
+    common_themes: [],
+    main_representatives_object: {
+      en: [],
+      fr: [
+        "Molière",
+        "Jean de la Fontaince",
+        "Jean Racine",
+        "Pierre Corneille",
+      ],
+      usa: [],
+      cz: [],
+    },
+    concepts: [],
   },
   {
     name: "Národní obrození",
@@ -961,7 +1031,7 @@ export const art_directions = [
           "Vědecký charakter",
           "Vydávání jazykových obran",
         ],
-        main_representatives: [
+        main_representatives_object: [
           "Josef Dobrovský (Slovník německo-český)",
           "A. Jaroslav Puchmajer",
           "J. Š. V. Thám",
@@ -974,7 +1044,7 @@ export const art_directions = [
           "Vědecký charakter",
           "Vydávání jazykových obran",
         ],
-        main_representatives: [
+        main_representatives_object: [
           "Josef Dobrovský (Slovník německo-český)",
           "A. Jaroslav Puchmajer",
           "J. Š. V. Thám",
@@ -987,7 +1057,7 @@ export const art_directions = [
           "Vědecký charakter",
           "Vydávání jazykových obran",
         ],
-        main_representatives: [
+        main_representatives_object: [
           "Josef Dobrovský (Slovník německo-český)",
           "A. Jaroslav Puchmajer",
           "J. Š. V. Thám",
@@ -1024,7 +1094,7 @@ export const art_directions = [
       "Dramatická báseň",
     ],
     common_themes: ["měšťanská láska"],
-    main_representatives: {
+    main_representatives_object: {
       en: [
         "Walter Scott (Ivanhoe, Weverly)",
         "George Gordon Byron (Childe Haroldova pouť, Don Juan)",
@@ -1052,12 +1122,37 @@ export const art_directions = [
     music: [],
     genres: [],
     common_themes: [],
-    main_representatives: {
+    main_representatives_object: {
       en: [],
       fr: [],
       usa: [],
       cz: [],
     },
     concepts: [],
+  },
+  {
+    name: "Anarchističtí buřiči",
+    time_period: "",
+    characteristic_features: [
+      "https://vosaspseplzen.sharepoint.com/:p:/r/sites/Tda3.H-2023/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B311621f2-2bcd-4f3b-943f-61daf9c13fc6%7D&wdOrigin=TEAMS-WEB.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1726166948808&web=1",
+    ],
+    architecture: [],
+    music: [],
+    genres: [],
+    common_themes: [],
+    main_representatives_object: {
+      en: [],
+      fr: [],
+      usa: [],
+      cz: [],
+    },
+    concepts: [],
+  },
+];
+
+export const ikt_question = [
+  {
+    question: "1.",
+    answer: "",
   },
 ];
