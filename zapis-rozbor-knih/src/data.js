@@ -969,10 +969,10 @@ export const art_directions = [
     characteristic_features: [
       "Umělecký směr, který vznikl v 17. století v Itálii trvající do 18. století, avšak se nejvíce rozmohl ve Francii",
       "Církev byla terčem kritiky",
-      "Platili v něm velmi přísná pravidla pro literaturu",
+      "Platili v něm velmi přísná pravidla pro literaturu:",
       "Literatura rozdělena na dva směry/žánry NÍZKÝ (komedie, frašky, bajky, satiry) a VYSOKÝ (eposy, ódy, hymny, tragédie)",
       "Trojjednota - pravidlo tří jednot (jedno místo, jedno dějství, jedna doba)",
-      "Filozofický směr osvícenství",
+      "Paralelně probíhá filozofický směr osvícenství",
       "Klasický = výborný, dokonalý",
       "Inspiroval se antikou, obdiv k antice",
       "Nastal po Baroku",
@@ -1150,9 +1150,18 @@ export const art_directions = [
   },
 ];
 
-export const ikt_question = [
+export const ikt_questions = [
   {
-    question: "1.",
+    id: 1,
+    question: "",
+    answer: "",
+  },
+];
+
+export const vap_questions = [
+  {
+    id: 1,
+    question: "",
     answer: "",
   },
 ];
