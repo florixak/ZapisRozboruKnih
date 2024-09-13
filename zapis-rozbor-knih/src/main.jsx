@@ -42,6 +42,10 @@ const router = createBrowserRouter([
         element: <Authors />,
       },
       {
+        path: "/authors/:name",
+        element: <Author />,
+      },
+      {
         path: "/ikt-questions",
         element: <IKTQuestionList />,
       },

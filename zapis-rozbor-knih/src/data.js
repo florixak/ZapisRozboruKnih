@@ -244,6 +244,39 @@ export const books = [
 export const authors = [
   {
     id: 1,
+    name: "Euripides",
+    birth_year: "5. st. př. n. l.",
+    art_direction: "Antická literatura",
+    interest: [
+      "Starořecký dramatik, básník, filozof",
+      "Působil v 5. st. před naším letopočtem",
+      "Velmi vzdělaný",
+      "Za svého života byl kritizován",
+    ],
+    main_chars: [
+      "Kritizoval aktuální problémy v Athénách",
+      "Témata her byly politika, kultura a další",
+    ],
+    what_he_wrote: ["Drama", "Tragédie"],
+    authors: ["Sofoklés", "Aischylos", "Sokratés"],
+    works: [
+      {
+        name: "Médea",
+        url: "/books/" + deformatName("Médea"),
+      },
+      {
+        name: "Šílený Herakles",
+      },
+      {
+        name: "Elektra",
+      },
+      {
+        name: "Helena",
+      },
+    ],
+  },
+  {
+    id: 2,
     name: "Moliere",
     birth_year: "1622",
     art_direction: "Klasicismus",
@@ -278,39 +311,6 @@ export const authors = [
       },
       {
         name: "Zdravý nemocný (próza)",
-      },
-    ],
-  },
-  {
-    id: 2,
-    name: "Euripides",
-    birth_year: "5. st. př. n. l.",
-    art_direction: "Antická literatura",
-    interest: [
-      "Starořecký dramatik, básník, filozof",
-      "Působil v 5. st. před naším letopočtem",
-      "Velmi vzdělaný",
-      "Za svého života byl kritizován",
-    ],
-    main_chars: [
-      "Kritizoval aktuální problémy v Athénách",
-      "Témata her byly politika, kultura a další",
-    ],
-    what_he_wrote: ["Drama", "Tragédie"],
-    authors: ["Sofoklés", "Aischylos", "Sokratés"],
-    works: [
-      {
-        name: "Médea",
-        url: "/books/" + deformatName("Médea"),
-      },
-      {
-        name: "Šílený Herakles",
-      },
-      {
-        name: "Elektra",
-      },
-      {
-        name: "Helena",
       },
     ],
   },
