@@ -146,6 +146,17 @@ const Direction = () => {
                       </li>
                     ))}
                 </div>
+                <div>
+                  {direction.main_representatives_object.cz && (
+                    <p className="font-bold">Itálie:</p>
+                  )}
+                  {direction.main_representatives_object.it &&
+                    direction.main_representatives_object.it.map((rep) => (
+                      <li key={rep} className="ml-5">
+                        {rep}
+                      </li>
+                    ))}
+                </div>
               </div>
             </div>
           </div>

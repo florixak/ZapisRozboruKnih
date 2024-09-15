@@ -2,6 +2,10 @@ import { deformatName } from "./utils";
 
 export const books = [
   {
+    name: "Médeia",
+    author: "Euripides",
+  },
+  {
     name: "Lakomec",
     author: "Moliere",
     year_of_publication: 1668,
@@ -63,10 +67,6 @@ export const books = [
       "Inspirace od Komedie o hrnci od Plauta. Dílo bylo poprvé uvedeno ve francouzském divadle Palais-Royal. Divadelní i filmové zpracování.",
     main_message:
       "Varování před penězi, jak deformují charakter, ničí vztahy a citové vazby. Zesměšňuje a kritizuje vyšší vrstvy společnosti.",
-  },
-  {
-    name: "Médea",
-    author: "Euripides",
   },
   {
     name: "Máj",
@@ -248,27 +248,33 @@ export const authors = [
     birth_year: "5. st. př. n. l.",
     art_direction: "Antická literatura",
     interest: [
-      "Starořecký dramatik, básník, filozof",
-      "Působil v 5. st. před naším letopočtem",
-      "Velmi vzdělaný",
-      "Za svého života byl kritizován",
+      "Starořecký dramatik, filozof",
+      "Působil v 5. st. před naším letopočtem, v Antice, v Klasickém období",
+      "Na jeho dobu byl neobyčejně vzdělaný",
+      "Za svého života byl kritizován, kvůli svým odlišným názorům a jeho tvorbě",
+      "Kritizoval aktuální problémy v Athénách (kritika společnosti)",
+      "Napsal okolo 90 her, z toho se do dnešní doby dochovalo pouze 18 tragédií a 1 satyrské drama",
+      "Nemálo ovlidnil novodobé drama",
     ],
     main_chars: [
-      "Kritizoval aktuální problémy v Athénách",
-      "Témata her byly politika, kultura a další",
+      "Psal převážně tragédie",
+      "Nekladl důraz na bohy, ale na lidi (už jen tím se hodně lišil od ostatních autorů)",
+      "Do hlavních rolí obsazoval ženy či dokonce otroky (což bylo, v té době neobvyklé)",
+      "Zabývá se charaktery a psychologií postav",
+      "Ve svých hrách se také zabýval kritikou společnosti",
     ],
     what_he_wrote: ["Drama", "Tragédie"],
-    authors: ["Sofoklés", "Aischylos", "Sokratés"],
+    authors: ["Sofoklés", "Aischylos", "Herodotos", "Sokrates"],
     works: [
       {
         name: "Médea",
         url: "/books/" + deformatName("Médea"),
       },
       {
-        name: "Šílený Herakles",
+        name: "Elektra",
       },
       {
-        name: "Elektra",
+        name: "Šílený Herakles",
       },
       {
         name: "Helena",
@@ -281,17 +287,18 @@ export const authors = [
     birth_year: "1622",
     art_direction: "Klasicismus",
     interest: [
-      "Slavný francouzský dramatik, herec (hrál ve vlastních hrách)",
-      "Pseudonym - Jean-Baptiste Poquel (herectví nebylo moc uznáváno)",
+      "Slavný francouzský dramatik a herec (hrál ve vlastních hrách), který působil v uměleckém směru klasicismu, za vlády Ludvíka XIV.",
+      "Původně studoval práva a měl být notářem, přesto ho to táhlo k divadlu",
+      "Pocházel z vyšší/vážené/uznávané měšťanské rodiny",
+      "Zvolil Pseudonym, jeho pravé jméno je Jean-Baptiste Poquel (herectví bylo podřadné povolání)",
+      "Založil vlastní divadlo, které se stalo velmi slavným a uznávaným",
       "Psal v nízkém žánru (komedie, frašky)",
-      "33 divadelních her",
-      "Založil vlastní divadlo",
-      "Tvořil za vlády Ludvíka XIV., byl pozván na dvůr",
       "Pokládán za zakladatele moderní francouzské komedie",
+      "Napsal 33 divadelních her, převážně komedií",
       "Zemřel na tuberkulózu na scéně během hry (Zdravý nemocný) => odmítli ho pohřbít",
     ],
     main_chars: [
-      "Kritizoval církev a šlechtu / vyšších vrstev.",
+      "Kritizoval církev a šlechtu / vyšších vrstev. (zakazovali ho sledovat)",
       "Také kritizoval lidské vlastnosti (Lakomec) a snobství, doktory/lékaře.",
       "Pravidelná herecká účast ve svých dílech.",
       "Celá jeho tvorba ovlivněna měšťanským původem.",
@@ -320,14 +327,15 @@ export const authors = [
     birth_year: "1810",
     art_direction: "Romantismus",
     interest: [
-      "Český básník, prozaik, herec, dramatik a největší představil českého romantismu",
-      "Z chudé rodiny, vystudoval filozofii a práva",
+      "Český básník, prozaik, dramatik a největší představil českého romantismu.",
+      "Pocházel z chudé rodiny, otec byl tovaryš a matka z rodiny hudebníků.",
+      "Studoval filozofii a práva.",
       "Psal do novin, dělal amatérské divadlo (dobrovolný herec).",
+      "Své první básně v němčině",
+      "Byl velice společenský člověk",
       "Zakladatel české moderní poezie (přinesl nové prvky, důraz na přírodu a emoce...)",
-      "První básně v němčině, později v češtině",
-      "Jeho dílo bylo ve své době kritizováno",
-      "Inspiroval se zahraničními romantickými autory (Byron)",
-      "Studoval na gymnáziu, později filozofii a práva.",
+      "Jeho dílo bylo ve své době kritizováno, ocenili ho až později generace Májovců",
+      "Inspiroval se zahraničními romantickými autory (například Byron)",
       "Jediný pravý český romantický autor (v Česku se romantismus moc nevyvinul)",
     ],
     main_chars: [
@@ -337,13 +345,13 @@ export const authors = [
       "Romantický hrdina se bouří proti společnosti, silný člověk, většinou loupežník, zbojník, tulák, žebrák.",
       "Romantismus se projevuje i v popisu jeho přírody a krajiny.",
     ],
-    what_he_wrote: ["Próza", "Drama", "Poezie"],
+    what_he_wrote: ["Poezie", "Próza", "Drama"],
     authors: [
-      "Josef Jungmann (spisovatel, jazykovědec - Slovník česko německý)",
       "Karel Jaromír Erben (Kytice z pověstí národních)",
       "Josef Kajetán Tyl (Fidlovačka aneb Žádný hněv a žádná rvačka)",
-      "George Gordon Byron",
-      "Victor Hugo",
+      "George Gordon Byron (Childe Haroldova pouť)",
+      "Victor Hugo (Ivan Hoe)",
+      "Josef Jungmann (spisovatel, jazykovědec - Slovník česko německý)",
     ],
     works: [
       {
@@ -354,7 +362,10 @@ export const authors = [
         name: "Cikáni (próza - román)",
       },
       {
-        name: "Obrazy ze života mého",
+        name: "Obrazy ze života mého (autobiografické dílo)",
+      },
+      {
+        name: "Kat (cyklus historických povídek nedokončen)",
       },
     ],
   },
@@ -377,16 +388,19 @@ export const authors = [
     main_chars: [
       "Folklórní prvky (často čerpal inspiraci z lidových pověstí, pohádek, písní...)",
       "Baladická forma (často balady - báseň s pochmurným dějem a koncem)",
-      "Symbolismus",
-      "Témata trestu a viny",
+      "Pohádky ze starých mýtů",
+      "Témata viny a následného trestu",
       "Osud a nevyhnutelnost",
       "Rodina a vztahy",
-      "Příroda a nadpřirozeno",
+      "Témata lásky a smrti",
+      "Příroda a nadpřirozeno (bytosti, jevy)",
+      "Stupňuje napětí, vytváří působivé dramatické situace",
+      "Často používá dialogy",
     ],
     what_he_wrote: ["Básně, Balady (poezii)", "Pohádky (prózu)", "Pověsti"],
     authors: [
-      "Josef Kajetán Tyl",
       "Karel Hynek Mácha",
+      "Josef Kajetán Tyl",
       "Božena Němcová",
       "George Gordon Byron",
       "Victor Hugo",
@@ -435,7 +449,7 @@ export const authors = [
     birth_year: "1854-1900",
     art_direction: "Dekadence",
     interest: [
-      "Irský dramatik a spisovatel",
+      "Irský dramatik a spisovatel, působil v Literární moderně v uměleckém směru dekadence",
       "Nedbal na společenské pravidla/konvence, užíval si naplno",
       "Z bohaté rodiny, syn chirurga, studoval na Oxfordu",
       "Při studiích se seznámil se směrem - Dekadencí - která ho fascinovala svou absolutní svobodou a životem bez pravidel",
@@ -946,6 +960,7 @@ export const art_directions = [
     architecture: [],
     genres: [
       "Epos - rozsáhlá epická báseň",
+      "Lyrická poezie - ",
       "Ódy - slavnostní básně, oslavující osobnost, událost, vlastnost",
       "Elegie - žalozpěvy",
       "Bajky - zvířecí příběhy s morální pointou a poučením na konci",
@@ -953,13 +968,17 @@ export const art_directions = [
     common_themes: [],
     main_representatives_array: [
       "Homér (Ilias a Odysseia)",
-      "Euripides",
-      "Sofokles",
-      "Sapfo (bajky)",
-      "Aischylos",
+      "Ezop (bajky)",
+      "Sapfo (milostná poezie)",
+      "-----------------------",
+      "Euripides (tragédie)",
+      "Sofokles (tragédie)",
+      "Aischylos (tragédie)",
+      "Aristofanes (komedie)",
+      "Herodotos (historik - 'Otec dějepisu')",
+      "-----------------------",
       "Sokrates",
       "Platon",
-      "Herodotos",
     ],
     concepts: [],
   },
@@ -984,9 +1003,7 @@ export const art_directions = [
       "Staví se: Banky, Úřady, Nemocnice, Divadla",
     ],
     music: [
-      "Pohodová",
-      "Zábavná",
-      "Odpočinková",
+      "Pohodová, Zábavná, Odpočinková",
       "Jednoduché melodie, snadno zapamatovatelné",
       "Beethoven, Mozart",
     ],
@@ -1011,6 +1028,7 @@ export const art_directions = [
       ],
       usa: [],
       cz: [],
+      it: ["Carlo Goldoni"],
     },
     concepts: [],
   },
@@ -1153,8 +1171,135 @@ export const art_directions = [
 export const ikt_questions = [
   {
     id: 1,
-    question: "",
-    answer: "",
+    question:
+      "Bezpečný pohyb v kyberprostoru, argumentační fauly a dezinformace",
+    answer: [],
+  },
+  {
+    id: 2,
+    question: "Zabezpečení dat, dokumentů, zařízení a jiných aktivit na PC",
+    answer: [],
+  },
+  {
+    id: 3,
+    question: "Zpracování dat v Excelu",
+    answer: [],
+  },
+  {
+    id: 4,
+    question: "Multidimenzionální model a klasifikace dat",
+    answer: [],
+  },
+  {
+    id: 5,
+    question: "Tvorba datový struktur pomocí jazyka DAX",
+    answer: [],
+  },
+  {
+    id: 6,
+    question: "Vizualizační metody k řešení obchodních modelů",
+    answer: [],
+  },
+  {
+    id: 7,
+    question: "Datové formáty (API, JSON, Databáze)",
+    answer: [],
+  },
+  {
+    id: 8,
+    question: "SŘBD",
+    answer: [],
+  },
+  {
+    id: 9,
+    question: "Datové modelování",
+    answer: [],
+  },
+  {
+    id: 10,
+    question: "SQL – DDL",
+    answer: [],
+  },
+  {
+    id: 11,
+    question: "SQL – DML",
+    answer: [],
+  },
+  {
+    id: 12,
+    question: "SQL – JOIN",
+    answer: [],
+  },
+  {
+    id: 13,
+    question:
+      "Počítačová grafika - principy, SW, formáty, barevné modely, terminologie - rozlišení, hloubka barev",
+    answer: [],
+  },
+  {
+    id: 14,
+    question:
+      "Digitální fotografie, části a parametry dig. fotoaparátu, základní kompozice obrazu, autorská práva",
+    answer: [],
+  },
+  {
+    id: 15,
+    question:
+      "Audio – digitalizace, formáty a kodeky souborů, parametry audio souborů, SW, výpočty",
+    answer: [],
+  },
+  {
+    id: 16,
+    question:
+      "Video – kontejnerové formáty a kodeky souborů, parametry video souborů, SW, výpočty",
+    answer: [],
+  },
+  {
+    id: 17,
+    question: "3D grafika – princip, kartézský systém, SW, 3D formáty souborů",
+    answer: [],
+  },
+  {
+    id: 18,
+    question:
+      "3D objekty – spline, vertex – edge – polygon, mesh – patch – NURBS",
+    answer: [],
+  },
+  {
+    id: 19,
+    question:
+      "VR – vývojové prostředí, získávání 3D objektů, skriptování, využití v praxi",
+    answer: [],
+  },
+  {
+    id: 20,
+    question: "Zařízení a technologie IoT",
+    answer: [],
+  },
+  {
+    id: 21,
+    question: "Základní pojmy z elektrotechniky",
+    answer: [],
+  },
+  {
+    id: 22,
+    question: "Periferní zařízení pro IoT",
+    answer: [],
+  },
+  {
+    id: 23,
+    question: "Zpracování a vizualizace dat v IoT",
+    answer: [],
+  },
+  {
+    id: 24,
+    question: "Přenosové sítě, protokoly a sběrnice pro IoT",
+    answer: [],
+  },
+  {
+    id: 25,
+    question: "Programování IoT zařízení",
+    answer: [],
   },
 ];
 
@@ -1163,5 +1308,198 @@ export const vap_questions = [
     id: 1,
     question: "",
     answer: "",
+  },
+];
+
+export const genres = {
+  epika: [
+    {
+      id: 3,
+      question: "Epos",
+      answer: [
+        "Rozsáhlá veršovaná skladba, která chronologicky zachycuje vyprávěné události, jež jsou spojeny jednou či několika postavami",
+        "(žánrové varianty: hrdinský, rytířský, duchovní epos).",
+      ],
+    },
+    {
+      id: 4,
+      question: "Román",
+      answer: [
+        "Rozsáhlé epické vyprávění s mnoha postavami v delším časovém úseku.",
+      ],
+    },
+    {
+      id: 6,
+      question: "Povídka",
+      answer: [
+        "příběh s relativně jednoduchým dějem a několika postavami, děj je méně rozvětvený než u románu.",
+      ],
+    },
+    {
+      id: 7,
+      question: "Novela",
+      answer: [
+        "Prozaický útvar, středního nebo kratšího rozsahu",
+        "Zakladatel Giovanni Boccaccio",
+      ],
+    },
+    {
+      id: 9,
+      question: "Pohádka",
+      answer: [
+        "Příběh s nadpřirozenými prvky, souboj dobra a zla, morální poučení, končí šťastně",
+      ],
+    },
+    {
+      id: 5,
+      question: "Legenda",
+      answer: [""],
+    },
+    {
+      id: 8,
+      question: "Romaneto",
+      answer: [
+        "žánrová varianta novely, příběh s fantastickou a nevysvětlitelnou záhadou, která je postupně rozuzlována.",
+        "Zakladatelem J. Arbes.",
+      ],
+    },
+    {
+      id: 10,
+      question: "Pověst",
+      answer: ["", ""],
+    },
+    {
+      id: 11,
+      question: "Báje",
+      answer: [
+        "příběhy, v nichž lidé ztvárnili své představy o vzniku světa, o přírodních jevech a jejich příčinách.",
+      ],
+    },
+    {
+      id: 12,
+      question: "Bajka",
+      answer: [
+        "Alegorický příběh, v němž vystupují zvířata nebo jiné neživé předměty, má většinou poučení.",
+      ],
+    },
+  ],
+  lyrika: [
+    {
+      id: 1,
+      question: "Píseň",
+      answer: ["Skladba určená ke zpěvu"],
+    },
+    {
+      id: 2,
+      question: "Óda",
+      answer: ["Oslavná báseň, oslavuje hrdiny, události, vlastnosti"],
+    },
+    {
+      id: 4,
+      question: "Elegie",
+      answer: ["Žalozpěv, báseň smutného charakteru"],
+    },
+    {
+      id: 5,
+      question: "Epitaf",
+      answer: ["Náhrobní nápis"],
+    },
+    {
+      id: 6,
+      question: "Epigram",
+      answer: ["Krátká satirická báseň vyjadřujíci myšlenku"],
+    },
+    {
+      id: 7,
+      question: "Pásmo",
+      answer: [""],
+    },
+    {
+      id: 3,
+      question: "Hymnus",
+      answer: ["Chvalozpěv"],
+    },
+    {
+      id: 8,
+      question: "Sonet",
+      answer: [""],
+    },
+  ],
+};
+
+export const tropy = [
+  {
+    id: 1,
+    name: "Metafora",
+    description:
+      "Přenesení významu na základě vnější podobnosti (př. zuby pily, žloutkové věnečky)",
+  },
+  {
+    id: 2,
+    name: "Metonymie",
+    description:
+      "Přenesení významu na základě vnitřní, věcné podobnosti (př. Vypil dvě sklenice., Četl Čapka., Objednal si plzeň.)",
+  },
+  {
+    id: 3,
+    name: "Personifikace",
+    description:
+      "Přenesení lidských vlastností na neživé předměty, rostliny, zvířata (př. Slunce se usmívá., Vítr si hrál s houpačkou.)",
+  },
+  {
+    id: 4,
+    name: "Přirovnání",
+    description:
+      "Porovnání dvou jevů na základě společné vlastnoti (př. Byl bílý jako sníh., Byl rychlý jako blesk.)",
+  },
+  {
+    id: 5,
+    name: "Oxymorón",
+    description:
+      "Protimluv, slova protichůdného významu (př. tichý křik, živá mrtvola, jasná tma)",
+  },
+  {
+    id: 6,
+    name: "Hyperbola",
+    description:
+      "Nadsázka (př. Mám hlad jako vlk., Byl to nejlepší den mého života., Trvalo to nekonečno let.)",
+  },
+  {
+    id: 7,
+    name: "Symbol",
+    description: "Zastupuje obecný pojem (př. růže - láska, kříž - křesťanství",
+  },
+];
+
+export const figury = [
+  {
+    id: 0,
+    name: "Založero na opakování slov",
+    description: "",
+  },
+  {
+    id: 1,
+    name: "Aliterace",
+    description: "Opakování slov začínajících stejnou hláskou",
+  },
+  {
+    id: 2,
+    name: "Anafora",
+    description: "Opakování stejného slova na začátcích veršů",
+  },
+  {
+    id: 3,
+    name: "Epifora",
+    description: "Opakování stejného slova na koncích veršů",
+  },
+  {
+    id: 4,
+    name: "Epizeuxis",
+    description: "Opakování stejného slova za sebou",
+  },
+  {
+    id: 5,
+    name: "Gradace",
+    description: "Stupňování (př. Jdu, běžím, letím. ",
   },
 ];
