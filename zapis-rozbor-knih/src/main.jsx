@@ -11,6 +11,7 @@ import Home from "./components/Home.jsx";
 import Direction from "./components/Direction.jsx";
 import Directions from "./components/Directions.jsx";
 import IKTQuestionList from "./components/IKTQuestionList.jsx";
+import AuthorTest from "./components/AuthorTest.jsx";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "/authors/:name",
         element: <Author />,
+      },
+      {
+        path: "/authors-test/:name",
+        element: <AuthorTest />,
       },
       {
         path: "/ikt-questions",

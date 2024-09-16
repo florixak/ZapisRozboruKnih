@@ -454,6 +454,7 @@ export const authors = [
       "Z bohaté rodiny, syn chirurga, studoval na Oxfordu",
       "Při studiích se seznámil se směrem - Dekadencí - která ho fascinovala svou absolutní svobodou a životem bez pravidel",
       "Byl homosexuál, což bylo v té době trestné (po odhalení jeho románku byl poslán na 2 roky do vězení a nucených prací)",
+      "Spojován s prokletými básníky kvůli svému životnímu stylu a zájmu",
     ],
     main_chars: [
       "Hry charakteristické velmi bohatým jazykem (aforismy, slovní hříčky, ironie)",
@@ -557,11 +558,11 @@ export const authors = [
   {
     id: 10,
     name: "Guy de Maupassant",
-    birth_year: "1850-1983",
+    birth_year: "1850-1893",
     art_direction: "Realismus",
     interest: [
       "Fracouzský spisovatel a novinář",
-      "Tvorba oblivněna Realismem a Naturalismem",
+      "Jeho tvorbu ovlivnil Realismus a Naturalismus",
       "Pocházel z vyšších vrstev, narozen na zámku v Normandii",
       "Vyloučen z církevního internátu, studium práv mu přerušila prusko-francouzská válka do níž dobrovolně vstoupil jako voják",
       "Po válce pracoval jako úředník",
@@ -570,7 +571,8 @@ export const authors = [
     ],
     main_chars: [
       "Dokázal mistrně popsat skutečnost",
-      "Psal o: rodné Normandii, prusko-francouzské válce, ženách a jejich láskách, strachu, nemoci, šílenství, posedlosti",
+      "Psal o: ",
+      "Rodné Normandii, prusko-francouzské válce, ženách a jejich láskách, strachu, nemoci, šílenství, posedlosti",
     ],
     what_he_wrote: ["Povídky (Kulička)", "Romány (Miláček, Petr a Jan)"],
     authors: [
@@ -620,15 +622,18 @@ export const authors = [
     birth_year: "1902-1968 - 20. st.",
     art_direction: "Realismus",
     interest: [
-      "Americký spisovatel",
-      "Nositel Nobelovy ceny za literaturu",
-      "Nositel Pulitzerovy ceny za literaturu",
-      "Meziválečné období, americký realismus, sociálně kritická próza",
-      "Sám v mládí pracoval na farmách, proto věděl o čem píše",
+      "Americký spisovatel a novinář",
+      "Syn německého úředníka a irské učitelky",
+      "Nositel Nobelovy a Pulizerovy ceny za literaturu",
+      "Proslavil se svými romány ze života chudých Američanů",
+      "Nedokončil studium hitstorie a literatury, protože měl i jiné zájmy (například biologie)",
+      "Působil v Meziválečném období, americkém realismu",
+      "Již v mládí pracoval na farmách, proto věděl o čem píše",
+      "Proslavil se až novelou Pláň Tortilla",
     ],
     main_chars: [
       "Doba často zasazena do hospodářské krize",
-      "Často zobrazuje osudy a pocity chudáků, zemědělců, dělníků v době hospodářské krize",
+      "Sociálněkritická díla, Často zobrazuje osudy a pocity chudáků, zemědělců, dělníků v době hospodářské krize",
       "Vystěhovatelectví",
       "Cesta na Západ",
       "Marné hledání obživy",
@@ -640,6 +645,7 @@ export const authors = [
     ],
     authors: [
       "Franz Kafka (Proměna, Zámek)",
+      "Antoine De Saint-Exupéry",
       "Ernest Hemingway",
       "Scott Fitzgerald",
     ],
@@ -647,6 +653,9 @@ export const authors = [
       {
         name: "O myších a lidech",
         url: "/books/" + deformatName("o-myších%20a%20lidech"),
+      },
+      {
+        name: "Pláň Tortilla",
       },
       {
         name: "Hrozny hvěvu",
@@ -987,6 +996,7 @@ export const art_directions = [
     time_period: "17. století až do 18. století",
     characteristic_features: [
       "Umělecký směr, který vznikl v 17. století v Itálii trvající do 18. století, avšak se nejvíce rozmohl ve Francii",
+      "Byl zaměřený na člověka a racionalitu",
       "Církev byla terčem kritiky",
       "Platili v něm velmi přísná pravidla pro literaturu:",
       "Literatura rozdělena na dva směry/žánry NÍZKÝ (komedie, frašky, bajky, satiry) a VYSOKÝ (eposy, ódy, hymny, tragédie)",
