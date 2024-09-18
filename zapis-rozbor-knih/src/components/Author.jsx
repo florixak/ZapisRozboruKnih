@@ -14,7 +14,7 @@ const Author = () => {
   return (
     <div
       key={author.id}
-      className="m-auto flex h-full w-[1000px] flex-col items-start justify-center gap-10 border p-4 py-12 text-xl"
+      className="m-auto flex h-full max-w-[1000px] flex-col items-start justify-center gap-10 border p-4 py-12 text-xl"
     >
       <h2 className="my-auto flex flex-row items-center gap-5 text-5xl font-bold">
         {author.name} <span className="text-base">({author.birth_year})</span>

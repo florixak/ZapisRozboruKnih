@@ -449,9 +449,10 @@ export const authors = [
     birth_year: "1854-1900",
     art_direction: "Dekadence",
     interest: [
-      "Irský dramatik a spisovatel, působil v Literární moderně v uměleckém směru dekadence",
-      "Nedbal na společenské pravidla/konvence, užíval si naplno",
-      "Z bohaté rodiny, syn chirurga, studoval na Oxfordu",
+      "Irský dramatik, básník a spisovatel, který působil v Literární moderně",
+      "Představitel dekadence",
+      "Nedbal na společenské pravidla/konvence, užíval si naplno, byl silně provokativní",
+      "Z bohaté rodiny, syn lékaře, studoval na Oxfordu",
       "Při studiích se seznámil se směrem - Dekadencí - která ho fascinovala svou absolutní svobodou a životem bez pravidel",
       "Byl homosexuál, což bylo v té době trestné (po odhalení jeho románku byl poslán na 2 roky do vězení a nucených prací)",
       "Spojován s prokletými básníky kvůli svému životnímu stylu a zájmu",
@@ -460,6 +461,7 @@ export const authors = [
       "Hry charakteristické velmi bohatým jazykem (aforismy, slovní hříčky, ironie)",
       "Kritizoval tehdejší společnost v Anglii",
       "Snažil se šokovat",
+      "Slovní hříčky, paradoxy, ostrá ironie, sarkasmus",
     ],
     what_he_wrote: [
       "Drama (divadelní hry)",
@@ -473,14 +475,17 @@ export const authors = [
     ],
     works: [
       {
-        name: "Obraz Doriana Graye",
+        name: "Obraz Doriana Graye (román)",
         url: "/books/" + deformatName("Obraz Doriana Graye"),
+      },
+      {
+        name: "Strašidlo Cantervillské (povídka)",
       },
       {
         name: "Ideální manžel (drama)",
       },
       {
-        name: "Ideální manžel (komedie)",
+        name: "Jak je důležité míti Filipa (drama)",
       },
     ],
   },
@@ -566,22 +571,28 @@ export const authors = [
     art_direction: "Realismus",
     interest: [
       "Fracouzský spisovatel a novinář",
-      "Jeho tvorbu ovlivnil Realismus a Naturalismus",
-      "Pocházel z vyšších vrstev, narozen na zámku v Normandii",
+      "Jeho tvorbu ovlivnil Realismus a Naturalismus, pesimistický pohled na svět, šlechtictví, život v Normandii a ve městě, prusko-francouzská válka",
+      "Šlechtického původu (aristokrat), narozen na zámku v Normandii",
       "Vyloučen z církevního internátu, studium práv mu přerušila prusko-francouzská válka do níž dobrovolně vstoupil jako voják",
-      "Po válce pracoval jako úředník",
       "Jeho přítel spisovatel Flaubert ho uvedl do literárního světa",
       "Napsal téměr 300 povídek a několik románů",
     ],
     main_chars: [
       "Dokázal mistrně popsat skutečnost",
-      "Psal o: ",
-      "Rodné Normandii, prusko-francouzské válce, ženách a jejich láskách, strachu, nemoci, šílenství, posedlosti",
+      "rodná Normandie",
+      "prusko-francouzská válka",
+      "strachu, nemoci, šílenství, posedlost",
     ],
-    what_he_wrote: ["Povídky (Kulička)", "Romány (Miláček, Petr a Jan)"],
+    what_he_wrote: [
+      "Próza",
+      "Povídky (Kulička, Slečna Fifi)",
+      "Romány (Miláček, Petr a Jan)",
+      "Novely",
+    ],
     authors: [
       "Gustav Flaubert - jeho přítel",
       "Nikol Valisjevič Gogol (Revizor)",
+      "Charles Dickens",
       "Émile Zola",
       "Jules Verne (Dvacet tisíc mil pod mořem)",
     ],
@@ -591,13 +602,13 @@ export const authors = [
         url: "/books/" + deformatName("Kulička"),
       },
       {
-        name: "Miláček",
+        name: "Miláček (román)",
       },
       {
         name: "Příběh jednoho života",
       },
       {
-        name: "Petr a Jan",
+        name: "Petr a Jan (román)",
       },
     ],
   },
@@ -628,24 +639,23 @@ export const authors = [
     interest: [
       "Americký spisovatel a novinář",
       "Syn německého úředníka a irské učitelky",
-      "Nositel Nobelovy a Pulizerovy ceny za literaturu",
+      "Nositel Nobelovy ceny a Pulizerovy ceny za literaturu",
+      "Působil v americkém realismu",
       "Proslavil se svými romány ze života chudých Američanů",
-      "Nedokončil studium hitstorie a literatury, protože měl i jiné zájmy (například biologie)",
-      "Působil v Meziválečném období, americkém realismu",
-      "Již v mládí pracoval na farmách, proto věděl o čem píše",
-      "Proslavil se až novelou Pláň Tortilla",
+      "Již v mládí pracoval na farmách, proto věděl o čem píše, inspirace",
+      "Tvořil v době velké hospodářské krize",
+      "Proslavil se novelou Pláň Tortilla",
     ],
     main_chars: [
-      "Doba často zasazena do hospodářské krize",
-      "Sociálněkritická díla, Často zobrazuje osudy a pocity chudáků, zemědělců, dělníků v době hospodářské krize",
-      "Vystěhovatelectví",
-      "Cesta na Západ",
-      "Marné hledání obživy",
+      "Sociální tématika,",
+      "Marné hledání obživy,",
+      "Často zobrazuje osudy a pocity chudáků, zemědělců, dělníků v době hospodářské krize",
       "Novely typické pro popis vztahu člověka k půdě (majetku), ukazuje negativní postoj člověka k moderní civilizaci, popisuje dobu ekonomické krize a prostředí na okraji společnosti, odsuzuje násilí a vykořisťování druhých",
     ],
     what_he_wrote: [
       "Povídky (Údolí bez konce, Nebeské Pastviny)",
       "Romány (O myších a lidech, Hrozny hněvu)",
+      "Novely",
     ],
     authors: [
       "Franz Kafka (Proměna, Zámek)",
@@ -655,14 +665,14 @@ export const authors = [
     ],
     works: [
       {
-        name: "O myších a lidech",
+        name: "O myších a lidech (Román)",
         url: "/books/" + deformatName("o-myších%20a%20lidech"),
       },
       {
-        name: "Pláň Tortilla",
+        name: "Pláň Tortilla (Román)",
       },
       {
-        name: "Hrozny hvěvu",
+        name: "Hrozny hvěvu (Román)",
       },
       {
         name: "Údolí bez konce",
@@ -747,11 +757,11 @@ export const authors = [
       "Významný český básník, dramatik, přkladatel, zakladatel surrealistické skupiny",
       "Studoval práva v Brně a poté filozofii v Praze",
       "Vůdčí osobností spolku Děvetsil (avantgardní spolek sdružující umělce, často levicový, rozpadl se 1930)",
+      "Zakladatel POETISMU (hravý a veselý umělecký směr, zaměřuje se na obyčejné věci a všední den, bez interpunkce)",
       "Zakladatel surrealistické skupiny (1934)",
       "Člen komunistické strany",
       "Přispíval do časopisů a novin (Lidové noviny...)",
       "Dramaturg Osvobozeného divadla a redaktor Masarykova naučného slovníku",
-      "Založil nový umělecký směr - POETISMUS (hravý a veselý, zaměřuje se na obyčejné věci a všední den, bez interpunkce)",
     ],
     main_chars: [
       "Hravá a veselá povaha, radost ze života (poetismus)",
@@ -836,19 +846,22 @@ export const authors = [
     id: 18,
     name: "Viktor Dyk",
     birth_year: "1877-1931",
-    art_direction: "Generace Buřičů",
+    art_direction: "Česká moderna, Generace Buřičů",
     interest: [
-      "Významný český básník, prozaik, publicista, dramatik a nacionalistický (pravičácký) politik",
-      "V mládí byl jedním z představitelů tzv. generace ANARCHISTICKÝCH BUŘIČŮ",
-      "Vystudoval práva v Praze, ale nakonec se stal novinářem a spisovatelem",
-      "Od roku 1907 se podílel na redigování časopisu Lumír",
-      "Od roku 1918 byl redaktorem Národních listů, podílel se na založení Československé národní demokracie",
+      "Významný český básník, prozaik, publicista, dramatik a politik",
+      "V mládí byl jedním z představitelů generace ANARCHISTICKÝCH BUŘIČŮ",
+      "Vystudoval práva v Praze",
+      "Kritik první republiky a T.G. Masaryka",
+      "Podílel se aktivně na redigování časopisu Lumír",
       "Za první světové války se podílel na protirakouském odboji a byl kvůli své literární činnosti vězněn ve Vídni",
+      "Redaktorem Národních listů",
+      "Podílel se na založení Československé národní demokracie",
     ],
     main_chars: [
       "Využíval satiru",
-      "Jeho díla zpravidla obsahují jasnou pointu",
-      "Využíval paradoxy",
+      "Jasná pointa díla",
+      "Úsečnost",
+      "Paradoxy",
       "Vliv anarchismu (Úsilí o neomezenou svobodu)",
       "Antimilitarismu (Odmítání války)",
       "Civilismu (Oslava moderní techniky a civilizace)",
@@ -867,6 +880,7 @@ export const authors = [
       "Karel Toman",
       "Jaroslav Hašek",
       "Petr Bezruč",
+      "Fráňa Šrámek",
     ],
     works: [
       {
@@ -885,6 +899,9 @@ export const authors = [
       {
         name: "Zmoudření Dona Quijota (drama)",
       },
+      {
+        name: "Ondřej a drak (drama)",
+      },
     ],
   },
   {
@@ -894,22 +911,22 @@ export const authors = [
     art_direction: "Meziválečná literatura",
     interest: [
       "Slavný český spisovatel, básník, dramatik, překladatel a novinář",
-      "Narozen v Malých Svatoňovicích",
       "Měl dva sourozence - bratra Josefa a sestru Helenu, bratr Josef mu často pomáhal s psaním, ze začátku dokonce psali spolu",
       "Studium gymnázia mu přerušili, musel ho dokončit v Brně, poté vystudoval filozofii v Praze",
-      "Kvůli svému zdravotnímu stavu nemohl narukovat do války, ale byl velkým odpůrcem války",
       "Byl velkým pacifistou a humanistou",
-      "Ovlivněn filozofickým směrem pragmatismem (praktický člověk, zda je něco prospěšné)",
-      "Založil československý PEN klub (součást celosvětového sdružení spisovatelů, stal se jeho předsedou)",
+      "Kvůli svému zdravotnímu stavu nemohl narukovat do války, ale byl velkým odpůrcem války",
       "Považován za zakladatele moderní utopické a vědecko-fantastické prózy",
+      "Ovlivněn pragmatismem (filosofický směr, praktický člověk, zda je něco prospěšné)",
+      "Předseda PEN klubu (součást celosvětového sdružení spisovatelů, stal se jeho předsedou)",
+      "Nejednou navržen na Nobelovu cenu za literaturu",
       "Autor mnoha divadelních her, povídek, románů, fejetonů, divadelních her, knih pro děti, sloupky v novinách",
       "SLOUPEK - vytvořil publicistický útvar",
       "ROBOT - autor slova robot (často připisováno jeho bratrovi Josefu)",
       "Regigoval Národní listy, z nich poté odešel a až do konce svého života redigoval Lidové noviny, kde vydával své literární, dramatické a publicistické práce",
     ],
     main_chars: [
-      "Uměl velice dobře využívat českého jazyka",
-      "Varoval před fašismem, nacismem a válkou (pacifista)",
+      "Uměl velice dobře využívat českého jazyka, bohatý jazyk, vzdělaný",
+      "Varoval před fašismem, nacismem, válkou (pacifista) a před technologiemi a technickým pokrokem",
       "Ovlivněn pragmatismem (praktický člověk, zda je něco prospěšné)",
       "Byl fascinován technologiemi a pokrokem => R.U.R. (zároveň varoval před nimi)",
       "Humanismus, zájem o člověka, zobrazuje víru v lidskou důstojnost",
@@ -917,6 +934,7 @@ export const authors = [
       "Filozofické otázky",
     ],
     what_he_wrote: [
+      "Všestranny autor",
       "Povídky",
       "Romány",
       "Drama",
@@ -942,19 +960,22 @@ export const authors = [
           "/books/" + deformatName("r.u.r.-(rossumovi%20univerzální%20roboti)"),
       },
       {
-        name: "Matka",
+        name: "Matka (protiválečné drama)",
       },
       {
-        name: "Válka s Mloky",
+        name: "Válka s Mloky (satirický scifi román)",
       },
       {
-        name: "Krakatit",
+        name: "Krakatit (vědeckofantastický román o trhavině)",
       },
       {
         name: "Boží muka",
       },
       {
-        name: "Povídky z jedné kapsy",
+        name: "Povídky z jedné a druhé kapsy",
+      },
+      {
+        name: "Dášenka (dětská pohádka o pejskovi)",
       },
     ],
   },

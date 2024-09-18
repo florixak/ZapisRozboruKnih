@@ -15,7 +15,7 @@ const Book = () => {
   return (
     <div
       key={book.id}
-      className="m-auto flex h-full w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
+      className="m-auto flex h-full max-w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
     >
       <h2 className="text-5xl">{book.name}</h2>
       <div>
