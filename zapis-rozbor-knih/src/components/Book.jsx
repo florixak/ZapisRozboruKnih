@@ -32,9 +32,6 @@ const Book = () => {
           <span className="font-bold">Rok vydání:</span>{" "}
           {book.year_of_publication}
         </p>
-        <p className="ml-5">
-          <span className="font-bold">Počet stran:</span> {book.pages}
-        </p>
       </div>
 
       <div className="ml-5 flex flex-col gap-1">
@@ -53,15 +50,13 @@ const Book = () => {
       </div>
 
       <div className="ml-5 flex flex-col gap-1">
-        <p>
+        <ul className="flex flex-row gap-2">
           <span className="font-bold">Časoprostor:</span>{" "}
           {book.space_time &&
             book.space_time.map((spaceTime) => (
-              <li className="ml-10" key={spaceTime}>
-                {spaceTime}
-              </li>
+              <li key={spaceTime}>{spaceTime}</li>
             ))}
-        </p>
+        </ul>
         <p>
           <span className="font-bold">Kompozice:</span> {book.composition}
         </p>
@@ -72,6 +67,42 @@ const Book = () => {
           <span className="font-bold">Téma:</span>{" "}
           {book.themes && book.themes.join(", ")}
         </p>
+      </div>
+
+      <div className="ml-5 flex flex-col gap-2">
+        <ul className="flex flex-row gap-2">
+          <span className="font-bold">Jazykové prostředky:</span>{" "}
+          {book.dictionary &&
+            book.dictionary.language.map((item, index) => {
+              return (
+                <li key={index}>
+                  <p>{item}</p>
+                </li>
+              );
+            })}
+        </ul>
+        <ul className="flex flex-row gap-2">
+          <span className="font-bold">Tropy:</span>{" "}
+          {book.dictionary &&
+            book.dictionary.tropy.map((item, index) => {
+              return (
+                <li key={index}>
+                  <p>{item}</p>
+                </li>
+              );
+            })}
+        </ul>
+        <ul className="flex flex-row gap-2">
+          <span className="font-bold">Figury:</span>{" "}
+          {book.dictionary &&
+            book.dictionary.figury.map((item, index) => {
+              return (
+                <li key={index}>
+                  <p>{item}</p>
+                </li>
+              );
+            })}
+        </ul>
       </div>
 
       <div className="ml-5 flex flex-col gap-1">

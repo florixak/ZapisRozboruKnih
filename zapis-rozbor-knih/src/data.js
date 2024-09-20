@@ -86,7 +86,40 @@ export const books = [
   },
   {
     name: "Havran",
-    author: "Edgar Allan Poe",
+    author: "Edar Allan Poe",
+    year_of_publication: "1845 (závěr jeho tvorby), romantismus",
+    literary_genre: "balada (báseň s ponurým dějem a koncem)",
+    literary_form: "poezie",
+    literary_species: "lyricko-epika",
+    rhyme: "8stopý trochej",
+    themes: ["smrt", "osamělost", "ztráta", "smutek", "zlo"],
+    space_time: ["Mužův/básníkův pokoj", "prosinecový den, půlnoc"],
+    composition: "18 slok, 6 veršů",
+    dictionary: {
+      language: [
+        "Archaismy, spisovný jazyk, zastaralé výrazy, knižní výrazy, přímá řeč",
+      ],
+      tropy: [
+        "Personifikace, Symbol (Havran symbolem zla/smrti), Metafora (vyndej zobák z mého srdce = ukonči mé trápení)",
+      ],
+      figury: ["Epifora, Epizeuxis"],
+    },
+    narrator:
+      "ich forma (sám autor převtělený do postavy básníka, dílo psal když mu umírala manželka)",
+    main_characters: [
+      {
+        name: "Muž",
+        description:
+          "Nešťastný, osamělý, nemocný, neklidný, lituje smrti své ženy Lenory",
+      },
+      {
+        name: "Havran",
+        description: "děsivý, tajemný, představuje zlo",
+      },
+    ],
+    plot_summary:
+      "Vypravěč, osamělý, nemocný muž vzpomíná na svou zesnulou ženu Lenoru. V tom do jeho pokoje vletí havran, muž mu klade různé otázky, ale havranova odpověď je pokaždé stejná: 'never more'",
+    main_message: "",
   },
   {
     name: "Jáma a kyvadlo a jiné povídky",
