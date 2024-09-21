@@ -75,6 +75,33 @@ export const books = [
   {
     name: "Kytice",
     author: "Karel Jaromír Erben",
+    year_of_publication: "1853 (český romantismus)",
+    literary_genre: "balada",
+    literary_form: "poezie",
+    literary_species: "lyriko-epika",
+    rhyme:
+      "střídavý - ABAB, sdružený - AABB, přerývaný - ABCB, obkročný - ABBA",
+    themes: ["trest", "vina", "láska", "smrt"],
+    space_time: ["Čas není určen,", "Prostor se liší podle balady"],
+    composition:
+      "13 balad, chronologické, 1. podobná 13., 2. podobná 12., atd...",
+    dictionary: {
+      language: [
+        "Spisovná zastaralá čeština, archaismy, zdrobněliny, citoslovce",
+      ],
+      tropy: ["Personifikace"],
+      figury: ["Anafora"],
+    },
+    narrator: "er forma (vnější pozorovatel děje)",
+    main_characters: [
+      {
+        name: "Většinou bezejmenné postavy (otec, matka, dítě...)",
+        description: "",
+      },
+    ],
+    plot_summary:
+      "1. Kytice; 2. Poklad - matka, dítě a zlato v jeskyni; 3. Svatební košile - dívka, umrlec; 4. Polednice - matka, synek, polednice, otec; 5. Zlatý kolovrat - matka, dcera, dora, král, kluk, starý dědeček; 6. Štědrý večer - Hana s Marií nad jezerem chtějí znát svůj osud; 7. Lilie - dívka se převtělí do kytky lilie, v noci se mění zpět, pánova matka zabije ji i jejich dítě; 8. Holoubek - žena smutní nad hrobem svého milého, kterého otrávila, jiný ji svede, nakonec se sama utopí; 9. Záhořovo lože - ; 10. Vodník; 11. Vrba - dívka se převtěluje v noci do vrby, muž pokácí tu vrbu, umírá i manželka; 12. Dceřina kletba - nechtěné dítě, dcera proklíná za to matku, že ji nechala až moc volna; 13. Věštkyně - autor píše o budoucnosti národa, spíše lyrika",
+    main_message: "vina a trest, vztah matky a dcery",
   },
   {
     name: "Lucerna",
