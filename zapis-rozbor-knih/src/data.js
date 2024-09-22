@@ -71,6 +71,59 @@ export const books = [
   {
     name: "Máj",
     author: "Karel Hynek Mácha",
+    year_of_publication: "1836 (závěr tvorby, romantismus)",
+    literary_genre: "báseň, básnická povídka",
+    literary_form: "poezie",
+    literary_species: "lyricko-epická skladba",
+    rhyme: "jamb, obkročný rým ABBA, střídavý ABAB, sdružený AABB",
+    themes: [
+      "láska",
+      "příroda",
+      "smrt",
+      "tragičnost",
+      "vina",
+      "trest",
+      "pomstychtivost",
+    ],
+    space_time: [
+      "Příroda nedaleko hradu Bezděz a jezera v Doksech, střední Čechy",
+      "Čas není určen",
+    ],
+    composition: "4x zpěvy, 2x intermezzo",
+    dictionary: {
+      language: ["Zastaralý jazyk, Knižní/Básnické výrazy"],
+      tropy: [
+        "Personifikace, Metafory, Básnické přívlastky, Přirovnání, Oxymoron, Symboly (poutník - svoboda, vězeň Vilém - uvěznění)",
+      ],
+      figury: [
+        "Apostrofa",
+        "Epanastrofa (opakování slov na konci a na začátku verše)",
+      ],
+    },
+    narrator:
+      "er forma (vnější pozorovatel děje) a v závěru ich forma (poutník Hynek)",
+    main_characters: [
+      {
+        name: "Vilém",
+        description:
+          "typický romantický hrdina, vůdce loupežníků, vnitřně rozervaný, rozpolcený, nešťastný, pomstychtivý, pochybovačný a hluboce zamiovaný do Jarmily",
+      },
+      {
+        name: "Jarmila",
+        description:
+          "osamělá, nešťastná, krásná, komplikovaná, svedena Vilémovým otcem, spáchá sebevraždu",
+      },
+      {
+        name: "poutník Hynek",
+        description:
+          "připomíná autora, poutník v závěru, přemýšlivý, volný, svobodný, pochybovačný",
+      },
+      { name: "Otec Viléma", description: "utajený Vilémův otec" },
+    ],
+    plot_summary:
+      "1. Zpěv: Jarmila čeká na Viléma u jezera, od převozníka se dozvídá, že má být popraven za vraždu, zdrcená Jarmila se poté zabije skokem do jezera. 2. Zpěv: Vilém ve vězení s Dozorcem, vzpomíná na svou minulost, jak byl vyhozen z domu, přidal se k loupežníkům, zamiloval se do Jarmily, zabil svůdníka Jarmily (svého otce, to se dozvěděl až poté), odmítá svou vinu, cítí se být obětí. 1. Intermezzo: Popisuje duchy, které čekají na popravišti na svého nového mrtvého kolegu Viléma. 3. Zpěv: Vilémova poprava spolu v kontrastu s krásnou Májovou přírodou. 2. Intermezzo: Žalozpěv loupežníků nad ztrátou svého vůdce. 4. Zpěv: Po 7 letech na místo popravy přichází poutník Hynek, připodobňující autora, dozvídá se co se zde stalo a lituje Viléma, Jarmilu i sebe - svůj osud (Hynku! Viléme! Jarmilo!)",
+    main_message:
+      "V díle autor řeší složité otázky života, vyjadřuje obava ze smrti",
   },
   {
     name: "Kytice",
