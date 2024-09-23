@@ -64,9 +64,13 @@ const Book = () => {
           <span className="font-bold">Vypravěč:</span> {book.narrator}
         </p>
         <p>
+          <span className="font-bold">Shrnutí témat:</span>{" "}
+          {book.summary && book.summary}
+        </p>
+        <div>
           <span className="font-bold">Téma:</span>{" "}
           {book.themes && book.themes.join(", ")}
-        </p>
+        </div>
       </div>
 
       <div className="ml-5 flex flex-col gap-2">

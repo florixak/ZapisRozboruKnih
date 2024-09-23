@@ -13,6 +13,8 @@ export const books = [
     literary_genre: "Komedie",
     literary_form: "Próza",
     literary_species: "Drama",
+    summary:
+      "Varování před penězi, jak deformují lidský charakter, ničí vztahy a vazby mezi lidmi",
     themes: ["Peníze", "Touha po penězích", "Láska", "Chamtivost"],
     space_time: ["Francie, Paříž, Dům Harpagona", "17. století (1670)"],
     composition: "Chronologická",
@@ -163,6 +165,49 @@ export const books = [
   {
     name: "Obraz Doriana Graye",
     author: "Oscar Wilde",
+    year_of_publication:
+      "1890 (pozdní období autorovy tvorby, dekadence - pesimistické nálady, bohemistický život, pocit prázdnoty a beznaděje)",
+    literary_genre: "román (epický žánr delšího rozsahu a komplikovanější děj)",
+    literary_form: "próza",
+    literary_species: "epika",
+    rhyme: "",
+    summary:
+      "Varování před morálním úpadkem, povrchností, posedlostí krásou, bezohledností a dokonalostí",
+    themes: ["mládí", "stáří", "krása", "povrchnost", "hřích"],
+    space_time: ["Anglie", "během 19. století"],
+    composition: "předmluva a 20 kapitol, chronologicky",
+    dictionary: {
+      language: [
+        "Spisovný, až noblesní jazyk, knižní výrazy, hovorový jazyk, zastaralé výrazy",
+      ],
+      tropy: ["Personifikace"],
+      figury: ["Anafora", "Epizeuxis (opakování slov po sobě)"],
+    },
+    narrator: "er forma",
+    main_characters: [
+      {
+        name: "Dorian Graye",
+        description:
+          "Mladý pohledný šlechtic, nevinný --> povrchní, zlý, egoistický, nevyrovnaný",
+      },
+      { name: "Lord Henry Wotton", description: "Povrchní, sexistický" },
+      {
+        name: "Basil Hallward",
+        description: "Malíř okouzlený Dorianem, prakticky zamilovaný, naivní",
+      },
+      {
+        name: "Sibyla Vaneová",
+        description:
+          "Mladá, talentovaná herečka, co se změní poté co pozná Doriana",
+      },
+      {
+        name: "James Vane",
+        description: "Neotesaný bratr, má starost o svou sestru",
+      },
+    ],
+    plot_summary:
+      "Dorian Gray vyřkne přání, aby obraz co namaloval Basil Hallward stárl místo něj a přání se mu splní. Uplyne několik let a obraz stárne a odráží se na něj všechny Dorianovy špatnosti. Jednou to Dorian nevydrží obraz zničí a tím zabije i sám sebe, nachází ho starého v pokoji mrtvého s dýkou v srdci a na obraze je mladík.",
+    main_message: "Jistá inspirace upsání se ďáblu, Faust",
   },
   {
     name: "Havran",
@@ -172,6 +217,7 @@ export const books = [
     literary_form: "poezie",
     literary_species: "lyricko-epika",
     rhyme: "8stopý trochej",
+    summary: "",
     themes: ["smrt", "osamělost", "ztráta", "smutek", "zlo"],
     space_time: ["Mužův/básníkův pokoj", "prosinecový den, půlnoc"],
     composition: "18 slok, 6 veršů",
@@ -208,10 +254,44 @@ export const books = [
   {
     name: "Král Lávra",
     author: "Karel Havlíček Borovský",
+    year_of_publication: "",
+    literary_genre: "",
+    literary_form: "",
+    literary_species: "",
+    rhyme: "",
+    summary: "",
+    themes: [],
+    space_time: [],
+    composition: "",
+    dictionary: { language: [""], tropy: [""], figury: [""] },
+    narrator: "",
+    main_characters: [
+      { name: "", description: "" },
+      { name: "", description: "" },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Kulička",
     author: "Guy de Maupassant",
+    year_of_publication: "",
+    literary_genre: "",
+    literary_form: "",
+    literary_species: "",
+    rhyme: "",
+    summary: "",
+    themes: [],
+    space_time: [],
+    composition: "",
+    dictionary: { language: [""], tropy: [""], figury: [""] },
+    narrator: "",
+    main_characters: [
+      { name: "", description: "" },
+      { name: "", description: "" },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Revizor",
@@ -220,6 +300,23 @@ export const books = [
   {
     name: "O myších a lidech",
     author: "John Steinbeck",
+    year_of_publication: "",
+    literary_genre: "",
+    literary_form: "",
+    literary_species: "",
+    rhyme: "",
+    summary: "",
+    themes: [],
+    space_time: [],
+    composition: "",
+    dictionary: { language: [""], tropy: [""], figury: [""] },
+    narrator: "",
+    main_characters: [
+      { name: "", description: "" },
+      { name: "", description: "" },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "1984",
@@ -254,6 +351,7 @@ export const books = [
     literary_form: "Próza",
     literary_species:
       "Drama (protifašistické a protiválečné dílo o 3 jednáních)",
+    summary: "Varování před nesmyslností války a fašismu.",
     themes: ["Epidemie", "Fašismus", "Válka", "Morální dilemata"],
     space_time: [
       "Neurčená země",
@@ -302,6 +400,8 @@ export const books = [
     literary_genre: "Tragédie",
     literary_form: "Próza",
     literary_species: "Drama",
+    summary:
+      "Varování před nekontrolovaným rozvojem techniky a jeho možnými důsledky pro lidstvo.",
     themes: [
       "Umělý život",
       "Vzpoura",
@@ -309,8 +409,8 @@ export const books = [
       "Budoucnost lidstva",
     ],
     space_time: [
-      "Továrna Rossum’s Universal Robots",
-      "Nespecifikovaná budoucnost",
+      "Na ostrově, V továrně Rossum’s Universal Robots",
+      "Blíže nespecifikovaná budoucnost",
     ],
     composition: "Chronologická",
     narrator: "Nevyskytuje se",
@@ -1279,6 +1379,22 @@ export const art_directions = [
       "Epos = Rozsáhlá epická báseň",
       "Balada = Lyricko-epická veršovaná báseň s ponurým dějem a koncem",
     ],
+  },
+  {
+    name: "Dekadence",
+    time_period: "",
+    characteristic_features: ["", "Především francouzští Prokletí básníci"],
+    architecture: [],
+    music: [],
+    genres: [],
+    common_themes: [],
+    main_representatives_object: {
+      en: [],
+      fr: [],
+      usa: [],
+      cz: [],
+    },
+    concepts: [],
   },
   {
     name: "Meziválečná literatura",
