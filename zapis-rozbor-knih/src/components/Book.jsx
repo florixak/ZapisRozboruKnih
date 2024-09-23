@@ -45,7 +45,7 @@ const Book = () => {
         </p>
         <p>
           <span className="font-bold">Literární druh:</span>{" "}
-          {book.literary_species}
+          {book.literary_druh}
         </p>
       </div>
 
@@ -85,17 +85,19 @@ const Book = () => {
               );
             })}
         </ul>
-        <ul className="flex flex-row gap-2">
+        <div className="flex gap-2">
           <span className="font-bold">Tropy:</span>{" "}
-          {book.dictionary &&
-            book.dictionary.tropy.map((item, index) => {
-              return (
-                <li key={index}>
-                  <p>{item}</p>
-                </li>
-              );
-            })}
-        </ul>
+          <ul className="flex flex-col">
+            {book.dictionary &&
+              book.dictionary.tropy.map((item, index) => {
+                return (
+                  <li key={index}>
+                    <p>{item}</p>
+                  </li>
+                );
+              })}
+          </ul>
+        </div>
         <ul className="flex flex-row gap-2">
           <span className="font-bold">Figury:</span>{" "}
           {book.dictionary &&
