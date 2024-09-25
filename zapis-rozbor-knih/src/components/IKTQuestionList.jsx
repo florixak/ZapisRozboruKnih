@@ -1,9 +1,12 @@
+import { useNavigate } from "react-router-dom";
 import { ikt_questions } from "../data";
 
 const IKTQuestionList = () => {
+  const navigate = useNavigate();
   const pickRandom = () => {
-    const randomDir =
+    const random =
       ikt_questions[Math.floor(Math.random() * ikt_questions.length)];
+    navigate("/ikt-questions/" + random.id);
   };
 
   return (
