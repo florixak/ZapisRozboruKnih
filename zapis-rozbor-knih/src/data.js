@@ -366,30 +366,60 @@ export const books = [
   {
     name: "O myších a lidech",
     author: "John Steinbeck",
-    year_of_publication: "1915",
-    literary_genre: "Existenciální povídka/novela",
+    year_of_publication: "1937 (americký realismus)",
+    literary_genre: "sociální novela (jedna dějová linie, závěrečná pointa)",
     literary_form: "próza",
     literary_druh: "epika",
     rhyme: "",
-    summary: "",
-    themes: [],
-    space_time: [],
-    composition: "",
-    dictionary: { language: [""], tropy: [""], figury: [""] },
-    narrator: "",
+    summary:
+      "Zobrazení tehdejší americké společnosti, následky hospodářské krize, rasismu, chudoba, těžké podmínky.",
+    themes: [
+      "samota (každý na té farmě je sám)",
+      "přátelství",
+      "sen",
+      "velká hospodářská krize",
+    ],
+    space_time: [
+      "nedaleko města Soledad (samota) v Kalifornii",
+      "30. léta za Velké hospodářské krize",
+    ],
+    composition: "6 kapitol, chronologická (děj na sebe časově navazuje)",
+    dictionary: {
+      language: [
+        "Spisovný jazyk, nespisovný jazyk, slangové výrazy, zdrobněliny, přímá řeč, hovorový jazyk",
+      ],
+      tropy: [
+        "personifikace",
+        "hyperbola",
+        "epiteton konstans (přívlatek stálý, který přikládá důraz zjevným vlastnostem)",
+      ],
+      figury: ["elipsa (vynechání části věty, která je z kontextu zřejmá)"],
+    },
+    narrator: "er forma (vnější pozorovatel děje)",
     main_characters: [
       {
-        name: "Řehoř Samsa",
-        description:
-          "Hlavní postava, mladý ochodník, hodný, hodně pracovitý, racionalní (klasický hrdina Kafkových děl)",
+        name: "George Milton",
+        description: "starostlivý, chytrý, chrání Lennieho",
       },
-      { name: "Sestra Markétka", description: "" },
-      { name: "Matka", description: "" },
-      { name: "Otec", description: "" },
-      { name: "Grete", description: "" },
+      {
+        name: "Lennie Small",
+        description:
+          "velký, silný, neohrabaný, mentálně zaostalý, poslušný, má rád hebké věci, nechtěně zabije myš, psa a Curleyho ženu",
+      },
+      {
+        name: "Candy",
+        description:
+          "dobrosrdečný invalida bez ruky, má starého pejska, má rád Lennieho a George, připojí se k jejich snu o vlastní farmě",
+      },
+      {
+        name: "Curleyovi",
+        description:
+          "Manželka Curleyova (nespokojená, krásná, svádí zaměstnance na farmě) a syn Curley (malý, agresivní, zakomplexovaný)",
+      },
     ],
     plot_summary: "",
-    main_message: "",
+    main_message:
+      "George a Lennie chodí po farmách a hledají práci, mají sen vlastní farmy a Lennie tam chce králíčky. Na jednom ranči se setkají s Candy, který se připojí k jejich snu. Lennie nechtěně zabije Curleyho ženu, protože jí chce pohladit vlasy, ale přitom ji omylem zlomí krk. George se rozhodne, že je lepší zabít Lennieho, než aby ho chytili a mučili. George pak Lennieho zastřelí, aby mu ušetřil bolesti.",
   },
   {
     name: "1984",
@@ -401,7 +431,94 @@ export const books = [
   },
   {
     name: "Malý princ",
-    author: "Antoine De Saint-Exupéry",
+    author: "Antoine de Saint-Exupéry",
+    year_of_publication: "1943 (závěr autorovy tvorby)",
+    literary_genre: "filozofická pohádka",
+    literary_form: "próza",
+    literary_druh: "epika",
+    rhyme: "",
+    summary:
+      "Zobrazení dětského vnímání světa dospělých. Kritika lidských vlastností.",
+    themes: [""],
+    space_time: [
+      "africká poušť, Sahara (poté i jiné fiktivní planety)",
+      "neurčený čas, během 9 dní, zmíněné, že uplynulo 6 let",
+    ],
+    composition: "27 kapitol, chronologické i retrospektivní",
+    dictionary: {
+      language: [
+        "Spisovný jazyk, přímá řeč, hovorový jazyk, zdrobněliny, nepřímá řeč",
+      ],
+      tropy: [
+        "Symboly (růže - krásu, liška - moudrost, chytrost)",
+        "Personifika",
+        "Alegorie",
+        "Přirovnání",
+      ],
+      figury: ["Hyperbola"],
+    },
+    narrator: "ich forma a er forma",
+    main_characters: [
+      {
+        name: "Pilot",
+        description:
+          "má autobiografické prvky autora, má pořád dětskou duši a myšlení",
+      },
+      {
+        name: "Malý princ",
+        description:
+          "z planetky B612, cestuje po planetách, dětský, nedokáže pochopit svět dospělých",
+      },
+      {
+        name: "Růže",
+        description:
+          "na planetce malého prince, je pyšná, panovačná, sebestředná",
+      },
+      {
+        name: "1. Král",
+        description: "rádoby důležitý",
+      },
+      {
+        name: "2. Domýšlivec",
+        description: "chtěl být všemi obdivován a respektován",
+      },
+      {
+        name: "3. Pijan",
+        description:
+          "osamělý, zapomnětlivý, pije, aby zapomněl na stud, že pije",
+      },
+      {
+        name: "4. Byznysmen",
+        description: "počítá hvězdy a říká, že je vlastní",
+      },
+      {
+        name: "5. Lampář",
+        description:
+          "rozsvěcel a zhasínal lampu, rychle se mu střídal den a noc",
+      },
+      {
+        name: "6. Zeměpisec",
+        description: "Místo cestování jenom zapisuje mapy",
+      },
+      {
+        name: "7. Liška",
+        description: "Znuděná, moudrá, chytrá, nechá se ochočit malým princem",
+      },
+      {
+        name: "Výhybkář",
+        description: "opravuje vlaky",
+      },
+      {
+        name: "Obchodník",
+        description: "prodává pilulky proti žízni",
+      },
+      {
+        name: "Žlutý jedovatý had",
+        description: "uštke malého prince a ten zemře",
+      },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Edison",
