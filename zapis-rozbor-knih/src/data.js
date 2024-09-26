@@ -566,6 +566,61 @@ export const books = [
   {
     name: "Krysař",
     author: "Viktor Dyk",
+    year_of_publication: "1915",
+    pages: 128,
+    literary_genre: "historická novela (kratší próza s jasně daným příběhem)",
+    literary_form: "próza",
+    literary_druh: "epika",
+    summary: "Kritika společnosti, morální zkaženosti.",
+    themes: ["zrada", "smrt", "láska"],
+    space_time: ["německé město Hameln", "středověk (krysí mor)"],
+    composition: "26 kapitol, chronologická",
+    narrator: "er forma (vnější pozorovatel děje)",
+    dictionary: {
+      language: [
+        "Spisovná hovorová čeština, cizojazyčné prvky, archaismy, historismy",
+      ],
+      tropy: [
+        "Symbol (dítě = symbol lepšího života)",
+        "Metafora",
+        "Personifikace",
+        "Hyperbola",
+      ],
+      figury: [
+        "inverze (nezvyklý slovosled vět), řečnická otázka (neočekává se symbol)",
+      ],
+    },
+    main_characters: [
+      {
+        name: "Krysař",
+        description:
+          "necitlivý, chladnokrevný, klidný, introvertní, samotář, lhostejný, majitel kouzelné píšťaly, která dokáže ovládat bytosti",
+      },
+      {
+        name: "Agnes",
+        description:
+          "mladá a krásná měšťanka, zamiluje se do Krysaře a on do ní",
+      },
+      {
+        name: "Sepp Jörgen",
+        description:
+          "prostý, chudý, nevzdělaný, pomalejší, zaostalejší, lidé si z něj utahují",
+      },
+      {
+        name: "Městští radní",
+        description:
+          "nedodrží slib zaplatit Krysaři za jeho služby vyvedení krys z města",
+      },
+      {
+        name: "Dlouhý Kristián",
+        description:
+          "vysoký, agresivní, bývalý milenec Agnes, Agnes s ním čeká dítě",
+      },
+    ],
+    plot_summary:
+      "Krysař je povolán do města, aby zahubil přemnožené krysy. Ve městě pozná dívku jménem Agnes a zamiluje se do ní. Po vyvedení krys mu radní odmítnou zaplatit a Agnes čeká dítě s jejím bývalým milencem Kristiánem, znechuceně poté odchází z města, odmítl i nabídku ďáblova pomocníka, který ho nabádál k využití píšťaly proti lidem. Když se po nějaké době vrátí, tak zjistí, že se Agnes zabila. Jediný přeživší je rybář Sepp Jörgen a dítě, které našel a kterému pak začne hledat novou matku.",
+    literary_context: "",
+    main_message: "",
   },
   {
     name: "Bílá Nemoc",

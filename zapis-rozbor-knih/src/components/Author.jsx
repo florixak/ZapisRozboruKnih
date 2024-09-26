@@ -54,7 +54,7 @@ const Author = () => {
           </ul>
         </div>
 
-        <div>
+        {/* <div>
           <span className="font-bold underline">Co psal:</span>
           <ul>
             {author.what_he_wrote &&
@@ -64,7 +64,7 @@ const Author = () => {
                 </li>
               ))}
           </ul>
-        </div>
+        </div> */}
 
         <div>
           <span className="font-bold underline">Díla:</span>
