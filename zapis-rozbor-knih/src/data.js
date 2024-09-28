@@ -523,6 +523,45 @@ export const books = [
   {
     name: "Edison",
     author: "Vítěslav Nezval",
+    year_of_publication: "1928",
+    literary_genre: "báseň",
+    literary_form: "poezie",
+    literary_druh: "lyriko-epicka",
+    rhyme: "volný verš, sdružený rým (AABB), bez interpunkce",
+    summary:
+      "Otázky smyslu života, co po sobě člověk zanechá, Edison toho zanechal spoustu, v protikladu hazardní hráč nic.",
+    themes: [""],
+    space_time: ["Praha", "v noci"],
+    composition:
+      "5 zpěvů, které se nadále dělí na sloky, rámcová kompozice (několik příběhů)",
+    dictionary: {
+      language: [""],
+      tropy: [
+        "Symbol (sebevrah = beznaděj)",
+        "Metafora",
+        "Metonymie",
+        "Personifikace",
+      ],
+      figury: ["Anafora", "Aliterace", "Zvukomalba"],
+    },
+    narrator:
+      "nejdříve ich forma, poté o Edisonovi er forma (vnější pozorovatel)",
+    main_characters: [
+      {
+        name: "Nezval",
+        description: "",
+      },
+      {
+        name: "Edison",
+        description: "Symbol úspěšného člověka a zástupce pokroku techniky",
+      },
+      {
+        name: "Sebevrah",
+        description: "Protiklad ku Edisonovi, je neúspěšný a beznadějný",
+      },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Proměna",
@@ -1244,14 +1283,14 @@ export const authors = [
     id: 16,
     name: "Vítěslav Nezval",
     birth_year: "1900-1958",
-    art_direction: "Literární Moderna - Surrealismus",
+    art_direction: "Literární Moderna - Surrealismus a Poetismus",
     interest: [
       "Významný český básník, dramatik, přkladatel, zakladatel surrealistické skupiny",
       "Studoval práva v Brně a poté filozofii v Praze",
-      "Vůdčí osobností spolku Děvetsil (avantgardní spolek sdružující umělce, často levicový, rozpadl se 1930)",
-      "Zakladatel POETISMU (hravý a veselý umělecký směr, zaměřuje se na obyčejné věci a všední den, bez interpunkce)",
+      "Vůdčí osobností Avantgardy a spolku Děvetsil (avantgardní spolek sdružující umělce)",
+      "Spoluzakladatel POETISMU (hravý a veselý umělecký směr, zaměřuje se na obyčejné věci a všední den, sny a podvědomí, bez interpunkce)",
       "Zakladatel surrealistické skupiny (1934)",
-      "Člen komunistické strany",
+      "Ovlivněn poetismem a surrealismem",
       "Přispíval do časopisů a novin (Lidové noviny...)",
       "Dramaturg Osvobozeného divadla a redaktor Masarykova naučného slovníku",
     ],
@@ -1261,6 +1300,7 @@ export const authors = [
       "Surrealistické prvky (sny, podvědomí, iracionální obrazy)",
       "Politické názory, podpora socialismu",
       "Bohatá obraznost (vtáhnout do děje)",
+      "Bez interpunkce",
     ],
     what_he_wrote: ["Básně", "Drama", "Sbírky"],
     authors: [
