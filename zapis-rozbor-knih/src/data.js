@@ -362,6 +362,58 @@ export const books = [
   {
     name: "Revizor",
     author: "Nikolaj Vasiljevič Gogol",
+    year_of_publication: "1836",
+    literary_genre: "komedie",
+    literary_form: "próza",
+    literary_druh: "drama",
+    rhyme: "-",
+    summary: "Kritika ruské byrokracie, korupce, carského Ruska",
+    themes: ["podvod", "korupce", "byrokracie", "lidská hloupost"],
+    space_time: [
+      "Blíže nespecifikované městečko v Rusku",
+      "30. léta 19. století",
+    ],
+    composition: "5 dějství, chronologická",
+    dictionary: {
+      language: ["Spisovný, hovorový jazyk, vulgarismy, archaismy"],
+      tropy: ["Personifikace"],
+      figury: [
+        "epizeuxis (opakování slov za sebou)",
+        "hyperbola (zveličení)",
+        "anafora",
+      ],
+    },
+    narrator: "- (nevyskytuje se)",
+    main_characters: [
+      {
+        name: "Chlestakov",
+        description:
+          "Falešný revizor, každý se mu snaží podlézat, nikdo netuší, že je falešný, je to úředník z Petěrburgu",
+      },
+      {
+        name: "Osip",
+        description: "Chlestakovův sluha",
+      },
+      {
+        name: "Hejtman, policejní direktor (Anton Antonovič)",
+        description: "Krutý, naivní, mocný, podplácí, nemorální",
+      },
+      {
+        name: "Anna Andrejevna a Marja Antonovna",
+        description: "Matka a dcera, snaží se zalíbit Chlestakovovi",
+      },
+      {
+        name: "Statkáři Dobčinskij a Bobčinskij",
+        description: "Podlézaví, naivní, hloupí",
+      },
+      {
+        name: "poštmistr Špekin, soudce Ljapkin Ťapkin, školní inspektor Chlopov, kurátor Zemljanika, lékař Ginber",
+        description: "",
+      },
+    ],
+    plot_summary:
+      "1. dějství: Hejtman se dopisem dozví, že má příjet revizor 2. dějství: Chlestakov v hostinci nemá na zaplacení, Hejtman pozve Chlestakova domu. 3. dějství: Žena s dcerou se baví s Chlestakovem. 4. dějství: Všichni se domlouvají jak na revizora, začne si od všech půjčovat peníze, požádá o ruku hejtmanovi dcery. 5. dějství: Hejtman a jeho žena přemýšlí jak budou mít krásný život v Petěrburgu, později však přijde poštmistr s dopisem, že to nebyl žádný revizor, ale pouhý úředník, na konci přijde četník a oznámí, že přijel pravý revizor z Petěrburgu.",
+    main_message: "",
   },
   {
     name: "O myších a lidech",
@@ -838,7 +890,7 @@ export const authors = [
     authors: ["Jean Racine", "Piere Cornaille", "Jean de la Fontaine"],
     works: [
       {
-        name: "Lakomec (próza)",
+        name: "Lakomec (drama)",
         url: "/books/" + deformatName("Lakomec"),
       },
       {
@@ -1150,19 +1202,45 @@ export const authors = [
   {
     id: 11,
     name: "Nikolaj Vasiljevič Gogol",
-    birth_year: "",
-    art_direction: "",
-    interest: [],
-    main_chars: [],
-    what_he_wrote: [],
-    authors: [],
+    birth_year: "1809",
+    art_direction: "Romantismus / Realismus",
+    interest: [
+      "Ruský dramatik a spisovatel ukrajinského původu",
+      "Zástupce ruského Romantismu a současně považovaný za zakladatele ruského Kritického Realismu",
+      "Po studiích se odstěhoval do Petrohradu, kde se brzy začal věnovat literatuře",
+      "Ve své tvorbě se velmi inspiroval A. S. Puškinem a ovlivnil Dostojevského",
+      "Zužovali ho psychické problémy (deprese) z neúspěchu jeho tvorby",
+    ],
+    main_chars: [
+      "Kombinuje prvky romantismu a realismu",
+      "Používal satiru, sarkasmus a humor",
+      "Jeho tvorbu ovlivila i vášeň jeho otce pro literaturu, nebo Puškin, ukrajinský folklór, tradice a dějiny",
+      "Fantastické a mystické prvky",
+    ],
+    what_he_wrote: ["Drama", "Próza"],
+    authors: [
+      "Guy de Maupassant",
+      "Gustav Flaubert",
+      "Charles Dickens",
+      "Lev Nikolajevič Tolstoj",
+      "Fjodor Michajlovič Dostojevskij",
+    ],
     works: [
       {
-        name: "",
-        url: "/books/" + deformatName(""),
+        name: "Revizor",
+        url: "/books/" + deformatName("Revizor"),
       },
       {
-        name: "",
+        name: "Petrohradské povídky",
+      },
+      {
+        name: "Mrtvé duše",
+      },
+      {
+        name: "Podobizna",
+      },
+      {
+        name: "Ženitba",
       },
     ],
   },
