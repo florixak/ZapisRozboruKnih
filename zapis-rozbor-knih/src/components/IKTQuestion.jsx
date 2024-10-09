@@ -6,9 +6,9 @@ const IKTQuestion = () => {
   const question = ikt_questions.find(
     (question) => question.id === parseInt(id),
   );
-  console.log(question);
+
   return (
-    <div className="flex flex-col gap-5 bg-slate-900 text-white">
+    <div className="flex flex-col gap-5 bg-gray-600 p-5 text-white">
       <p className="font-bold">{question.id + ". " + question.question}</p>
       <ul>
         {question.answer.map((item) => (

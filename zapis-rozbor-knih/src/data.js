@@ -2171,7 +2171,7 @@ export const ikt_questions = [
   {
     id: 22,
     question: "Periferní zařízení pro IoT",
-    answer: [],
+    answer: [""],
   },
   {
     id: 23,
