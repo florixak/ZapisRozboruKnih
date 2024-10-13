@@ -161,6 +161,29 @@ export const books = [
   {
     name: "Lucerna",
     author: "Alois Jirásek",
+    year_of_publication: "",
+    literary_genre: "",
+    literary_form: "",
+    literary_druh: "",
+    rhyme: "",
+    summary: "",
+    themes: [""],
+    space_time: [],
+    composition: "",
+    dictionary: {
+      language: [""],
+      tropy: [""],
+      figury: [""],
+    },
+    narrator: "",
+    main_characters: [
+      {
+        name: "",
+        description: "",
+      },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Obraz Doriana Graye",
@@ -250,6 +273,29 @@ export const books = [
   {
     name: "Jáma a kyvadlo a jiné povídky",
     author: "Edgar Allan Poe",
+    year_of_publication: "",
+    literary_genre: "",
+    literary_form: "",
+    literary_druh: "",
+    rhyme: "",
+    summary: "",
+    themes: [""],
+    space_time: [],
+    composition: "",
+    dictionary: {
+      language: [""],
+      tropy: [""],
+      figury: [""],
+    },
+    narrator: "",
+    main_characters: [
+      {
+        name: "",
+        description: "",
+      },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Král Lávra",
@@ -476,10 +522,109 @@ export const books = [
   {
     name: "1984",
     author: "George Orwell",
+    year_of_publication: "",
+    literary_genre: "",
+    literary_form: "",
+    literary_druh: "",
+    rhyme: "",
+    summary: "",
+    themes: [""],
+    space_time: [],
+    composition: "",
+    dictionary: {
+      language: [""],
+      tropy: [""],
+      figury: [""],
+    },
+    narrator: "",
+    main_characters: [
+      {
+        name: "",
+        description: "",
+      },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Farma zvířat",
     author: "George Orwell",
+    year_of_publication: "1945 (závěr autorovy tvorby)",
+    literary_genre:
+      "satirický román, bajka (krátký příběh se zvířaty s ponaučením), novela",
+    literary_form: "próza",
+    literary_druh: "epika",
+    rhyme: "",
+    summary:
+      "Kritika totalitního režimu (komunismu), přeměna společnosti, zvířata se bouří proti lidem, nastolení komunismu",
+    themes: ["Diktatura", "totalita", "komunismus", "revoluce", "moc"],
+    space_time: [
+      "Anglie, fiktivní farma pana Jonese, (Panská farma / Farma zvířat)",
+      "Nespecifikovaný čas, připomíná proces nástupu komunismu v Rusku 1. polovina 20. století",
+    ],
+    composition: "10 kapitol, chronologická",
+    dictionary: {
+      language: ["spisovný jazyk, přímá řeč, monology vypravěče"],
+      tropy: ["Personifikace", "Alegorie (přenesení významu)"],
+      figury: [
+        "Eufemismus (zjemnění skutečnosti), hyperbola (nadsázka, zveličení)",
+      ],
+    },
+    narrator: "er forma (vnější pozorovatel děje)",
+    main_characters: [
+      {
+        name: "Napoleon",
+        description:
+          "prase, vůdce, vyhnal Kuliše, zrádný, chytrý, manipulativní, zneužívá své moci, představuje Stalina",
+      },
+      {
+        name: "Kuliš",
+        description:
+          "prase, plánuje zmodernizovat farmu, dobré úmysly, představuje Trockého",
+      },
+      {
+        name: "Major",
+        description:
+          "prase, staré, zemře na začátku, představuje Lenina, nabudí zvířata svým snem k převratu",
+      },
+      {
+        name: "Pištík",
+        description: "prase, věrný Napoleonovi, přesvědčivý, manipulativní",
+      },
+      {
+        name: "pan Jones a paní Jonesová",
+        description: "majitelé farmy, zvířata se proti nim bouří",
+      },
+      {
+        name: "Benjamin",
+        description:
+          "osel, pesimista, chytrý, nevěří na změnu, vše je pro něj stejné",
+      },
+      {
+        name: "Boxer",
+        description:
+          "kůň, silný, pracovitý, ne moc chytrý, dobromyslný, důvěřivý, oddaný, později zabit",
+      },
+      {
+        name: "Psi",
+        description:
+          "Napoleonovi strážci, tajná policie, vycvičení Napoleonem, který je odebral po narození, zastrašující",
+      },
+      {
+        name: "Ovce",
+        description:
+          "hloupé, snadno ovlivnitelné a manipulovatelné, Napoleonovi stoupenci, pouze přikyvují",
+      },
+      {
+        name: "Lupina (kůň), slepice, krkavec, krysy, kočka...",
+        description: "kůň",
+      },
+      {
+        name: "Další lidé: Whymper (prostředník), Frederick, Pilkington (majitelé cizích farem)",
+      },
+    ],
+    plot_summary: "",
+    main_message: "",
   },
   {
     name: "Malý princ",
@@ -1298,20 +1443,42 @@ export const authors = [
   {
     id: 13,
     name: "George Orwell",
-    birth_year: "",
+    birth_year: "1903",
     art_direction: "",
-    interest: [""],
-    main_chars: [""],
-    what_he_wrote: ["", ""],
-    authors: ["", "", ""],
+    interest: [
+      "Vlastním jménem Eric Arthur Blair, narodil se v Indii",
+      "Britský prozaik, novinář, esejista",
+      "Předpověděl několik událostí, vizionář",
+      "Socialista a antifašista, demokrat, odpůrce totalitních režimů",
+      "Žil tuláckým životem",
+      "Bojoval ve Španělské občanské válce",
+      "zemřel na tuberkulózu",
+    ],
+    main_chars: ["Antiutopické prvky", "Kritika totalitních režimů", "Eseje"],
+    what_he_wrote: [
+      "Antiutopické díla",
+      "Kritika totalitních režimů",
+      "Tvořil eseje",
+      "Vliv na jeho tvorbu měl velký odpor k totalitním režimům",
+      "Ovlinili ho také práce v koloniích",
+      "Také ho ovlivnila účast ve Španělské občanské válce",
+    ],
+    authors: [
+      "Antoine De Saint-Exupéry (Albert Camus)",
+      "Karel Čapek (R.U.R)",
+      "Eduard Bass (Cirkus Humberto)",
+    ],
     works: [
       {
-        name: "1948",
+        name: "1984 (antiutopický román)",
         url: "/books/" + deformatName("1984"),
       },
       {
-        name: "Farma zvířat",
+        name: "Farma zvířat (satirický román s alegorickými prvky)",
         url: "/books/" + deformatName("Farma zvířat"),
+      },
+      {
+        name: "Farářova dcera",
       },
     ],
   },
