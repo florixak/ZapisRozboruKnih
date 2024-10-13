@@ -1454,15 +1454,16 @@ export const authors = [
       "Bojoval ve Španělské občanské válce",
       "zemřel na tuberkulózu",
     ],
-    main_chars: ["Antiutopické prvky", "Kritika totalitních režimů", "Eseje"],
-    what_he_wrote: [
+    main_chars: [
       "Antiutopické díla",
       "Kritika totalitních režimů",
+      "Sociální tématika",
       "Tvořil eseje",
       "Vliv na jeho tvorbu měl velký odpor k totalitním režimům",
       "Ovlinili ho také práce v koloniích",
       "Také ho ovlivnila účast ve Španělské občanské válce",
     ],
+    what_he_wrote: [],
     authors: [
       "Antoine De Saint-Exupéry (Albert Camus)",
       "Karel Čapek (R.U.R)",
