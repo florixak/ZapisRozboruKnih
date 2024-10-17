@@ -1444,7 +1444,7 @@ export const authors = [
     id: 13,
     name: "George Orwell",
     birth_year: "1903",
-    art_direction: "",
+    art_direction: "2. pol. 20. století",
     interest: [
       "Vlastním jménem Eric Arthur Blair, narodil se v Indii",
       "Britský prozaik, novinář, esejista",
