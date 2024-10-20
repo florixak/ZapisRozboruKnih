@@ -3,7 +3,54 @@ import { deformatName } from "./utils";
 export const books = [
   {
     name: "Médeia",
-    author: "Euripides",
+    author: "Euripidés",
+    year_of_publication: "5. st. př. n. l.",
+    pages: "",
+    literary_genre: "Tragédie",
+    literary_form: "Próza",
+    literary_druh: "Drama",
+    summary:
+      "Zabití vlastních dětí pro pomstu. Kritizuje postavení žen ve společnosti.",
+    themes: [""],
+    space_time: [
+      "město Korint, pravděpodobně Řecko",
+      "Antika (5. století př. n. l.)",
+    ],
+    composition:
+      "5 dějství (podle pravidel antického dramatu: expozice, kolize, peripetie, katastrofa, rozuzlení), chronologická",
+    narrator: "Nevyskytuje se",
+    tropy: [""],
+    figury: [""],
+    main_characters: [
+      {
+        name: "Médeia",
+        description:
+          "Hlavní postava, žena cizího původu, zrazená manželka, krutá, nelítostná, zabije vlastní děti kvůli pomstě",
+      },
+      {
+        name: "Iáson",
+        description: "Manžel Médeie, podvedl ji, oženil se s dcerou Kreóna",
+      },
+      {
+        name: "Kreón",
+        description: "Král Korintu, otec Glauky, nařídil vyhnání Médeie",
+      },
+      {
+        name: "Děti",
+        description: "2 synové Médeie a Iásona, oběti pomsty",
+      },
+      {
+        name: "Glauka",
+        description: "Dcera Kreóna, nová manželka Iásona",
+      },
+      {
+        name: "Aigeus",
+        description: "Král Athén, nabídne Médeii útočiště po jejím činu",
+      },
+    ],
+    plot_summary: "",
+    literary_context: "",
+    main_message: "",
   },
   {
     name: "Lakomec",
@@ -1261,17 +1308,16 @@ export const authors = [
     interest: [
       "Český básník, spisovatel, novinář, kritik, překladatel a vlastenec",
       "Představitel realismus a jedna z klíčových osobností 4. etapy Národního obrození",
-      "Narozen v obci Borová (dnes Havličkově Brodě)",
-      "Vystudoval gymnázium a poté filozofii v Praze",
-      "Učitel u rodiny v Rusku -> nelíbila se mu společnost, kritizoval ji -> vyhozen, zpátky do Česka",
-      "1848 - Založil vlastní Národní noviny (kvůli pronásledování poté zavřeny)",
-      "Kvůli své kritice raukouské absolutistické vlády byl pronásledován policií a následně převezen do tyrolského města Brixen pod pocilejní dohled",
-      "35 let - umírá na tuberkulózu (jako jeho manželka před ním)",
+      "Narodil se v obci Borová (dnes Havličkově Brodě)",
+      "Studoval gymnázium a poté filozofii v Praze",
+      "Pracoval jako vychovatel/učitel v Rusku, ale zdejší společnost začal kritizovat a byl nucen se navrátit do Čech.",
+      "Roku 1848 založil vlastní noviny Národní noviny, které byly kvůli jeho kritice rakouské vlády pronásledovány a nakonec uzavřeny.",
+      "Pro své kritické postoje vůči rakouské vládě byl policejně sledován a nakonec zatčen a uvězněn do Tyrolského městečka Brixen pod policejní dohled.",
+      "Zemřel na tuberkulózu, kterou se nakazil po smrti své manželky.",
     ],
     main_chars: [
-      "Otevřeně kritizoval politické dění",
-      "Psal epigramy (krátké satirické básně)",
-      "",
+      "Otevřeně kritizoval politické dění, zejména rakouský absolutismus",
+      "Psal epigramy, což jsou krátké satirické básně",
     ],
     what_he_wrote: [
       "Satira",
@@ -1282,7 +1328,7 @@ export const authors = [
     authors: ["Božena Němcová", "Josef Kajetán Tyl", "Karel Jaromír Erben"],
     works: [
       {
-        name: "Král Lávra",
+        name: "Král Lávra - satirická báseň, inspirovaná irskou lidovou pověstí o králi Midasovi",
         url: "/books/" + deformatName("Král Lávra"),
       },
       {
