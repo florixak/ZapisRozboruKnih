@@ -19,8 +19,11 @@ export const books = [
     composition:
       "5 dějství (podle pravidel antického dramatu: expozice, kolize, peripetie, katastrofa, rozuzlení), chronologická",
     narrator: "Nevyskytuje se",
-    tropy: [""],
-    figury: [""],
+    dictionary: {
+      language: ["Archaismy, Inverze, Řečnické otázky"],
+      tropy: ["Metonymie, Přirovnání, Synekdocha"],
+      figury: [""],
+    },
     main_characters: [
       {
         name: "Médeia",
