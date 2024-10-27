@@ -1581,44 +1581,33 @@ export const authors = [
   {
     id: 16,
     name: "Vítěslav Nezval",
-    birth_year: "1900-1958",
-    art_direction: "Literární Moderna - Surrealismus a Poetismus",
+    birth_year: "1900–1958",
+    art_direction:
+      "Literární moderna – Směr avantgardy, především poetismus a surrealismus",
     interest: [
-      "Významný český básník, dramatik, přkladatel a největší osobnost české avantgardy",
-      "Studoval práva v Brně a poté filozofii v Praze",
-      "Vůdčí spolku Děvetsil (avantgardní spolek sdružující umělce)",
-      "Zakladatel POETISMU (hravý a veselý umělecký směr, bez interpunkce)",
-      "Zakladatel surrealistické skupiny (1934)",
-      "Ovlivněn POETISMEM a SURREALISMEM",
+      "Významný český básník, dramatik, překladatel a přední osobnost české avantgardy.",
+      "Studoval práva v Brně a později filozofii v Praze",
+      "Zakládající člen avantgardního spolku Děvetsil, který sdružoval moderní umělce různých oborů.",
+      "Zakladatel poetismu (spolu s Karlem Teigem) – českého avantgardního směru, který klade důraz na hravost, radost ze života, bezstarostnost a fantazii, obvykle bez interpunkce.",
+      "Zakladatel české surrealistické skupiny (1934), která čerpala inspiraci z podvědomí, snů a iracionálních obrazů.",
+      "Silně ovlivněn nejen poetismem a surrealismem, ale i dobovou politickou situací a socialistickými ideály.",
     ],
     main_chars: [
-      "Hravá a veselá povaha, radost ze života (poetismus)",
-      "Jeho poezie je plná života a optimismu",
-      "Surrealistické prvky (sny, podvědomí, iracionální obrazy)",
-      "Politické názory, podpora socialismu",
-      "Bohatá obraznost (vtáhnout do děje)",
-      "Bez interpunkce",
+      "Poetismus: Optimismus, hravost, oslava každodenní radosti ze života.",
+      "Surrealismus: Snové obrazy, zkoumání podvědomí, využití iracionálních prvků, automatický text.",
+      "Jazyková hravost: Inovativní používání metafor, bohatá obraznost.",
+      "Často bez interpunkce, což podporuje volnost a plynulost jeho poezie.",
+      "Projevy politických a socialistických ideálů (zejména ve 30. a 40. letech).",
     ],
-    what_he_wrote: ["Básně", "Drama", "Sbírky"],
+    what_he_wrote: [
+      "Básně noci – Sbírka básní, obsahující např. Edison, považovaná za jedno z vrcholných děl poetismu. Téma zápasu člověka s časem, smyslem života.",
+      "Podivuhodný kouzelník – Básnická skladba, základní dílo poetismu.",
+      "Pantomima – Sbírka básní, která obsahuje hravé verše a využívá estetiku poezie bez interpunkce.",
+    ],
     authors: [
-      "Jaroslav Seifert (básník, držitel Nobelovky)",
-      "Karel Teige",
-      "Vladislav Vančura",
-    ],
-    works: [
-      {
-        name: "Edison",
-        url: "/books/" + deformatName("Edison"),
-      },
-      {
-        name: "Podivuhodný kouzelník",
-      },
-      {
-        name: "Pantomima",
-      },
-      {
-        name: "Básně noci",
-      },
+      "Jaroslav Seifert – Básník a držitel Nobelovy ceny za literaturu, rovněž člen Děvetsilu.",
+      "Karel Teige – Teoretik avantgardy, blízký spolupracovník a přítel Nezvala.",
+      "Vladislav Vančura – Prozaik a dramatik, známý svým specifickým jazykovým stylem, rovněž člen Děvetsilu.",
     ],
   },
   {
