@@ -1,22 +1,23 @@
 import { useNavigate } from "react-router-dom";
-import { ikt_questions } from "../data";
+import { ikt_questions, vap_questions } from "../data";
 
-const IKTQuestionList = () => {
+// eslint-disable-next-line react/prop-types
+const QuestionList = ({ type = "ikt" }) => {
   const navigate = useNavigate();
+  const list = type === "ikt" ? ikt_questions : vap_questions;
 
   const pickRandom = () => {
-    const random =
-      ikt_questions[Math.floor(Math.random() * ikt_questions.length)];
-    navigate("/ikt-questions/" + random.id);
+    const random = list[Math.floor(Math.random() * list.length)];
+    navigate(`/${type.toLowerCase()}-questions/${random.id}`);
   };
 
   const handleClick = (id) => {
-    navigate("/ikt-questions/" + id);
+    navigate(`/${type.toLowerCase()}-questions/${id}`);
   };
 
   return (
     <div className="p-5">
-      <h1>Seznam IKT otázek</h1>
+      <h1>{`Seznam ${type.toUpperCase()} otázek`}</h1>
       <button
         className="my-4 border-2 px-3 py-2 hover:bg-slate-400"
         onClick={pickRandom}
@@ -24,7 +25,7 @@ const IKTQuestionList = () => {
         Pick random
       </button>
       <ul className="flex flex-col gap-3">
-        {ikt_questions.map((question) => (
+        {list.map((question) => (
           <li
             onClick={() => handleClick(question.id)}
             key={question.id}
@@ -38,4 +39,4 @@ const IKTQuestionList = () => {
   );
 };
 
-export default IKTQuestionList;
+export default QuestionList;

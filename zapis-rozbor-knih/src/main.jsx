@@ -10,9 +10,9 @@ import Author from "./components/Author.jsx";
 import Home from "./components/Home.jsx";
 import Direction from "./components/Direction.jsx";
 import Directions from "./components/Directions.jsx";
-import IKTQuestionList from "./components/IKTQuestionList.jsx";
+import QuestionList from "./components/QuestionList.jsx";
 import AuthorTest from "./components/AuthorTest.jsx";
-import IKTQuestion from "./components/IKTQuestion.jsx";
+import Question from "./components/Question.jsx";
 
 const router = createBrowserRouter([
   {
@@ -53,11 +53,19 @@ const router = createBrowserRouter([
       },
       {
         path: "/ikt-questions",
-        element: <IKTQuestionList />,
+        element: <QuestionList type={"ikt"} />,
       },
       {
         path: "/ikt-questions/:id",
-        element: <IKTQuestion />,
+        element: <Question type={"ikt"} />,
+      },
+      {
+        path: "/vap-questions",
+        element: <QuestionList type={"vap"} />,
+      },
+      {
+        path: "/vap-questions/:id",
+        element: <Question type={"vap"} />,
       },
     ],
   },

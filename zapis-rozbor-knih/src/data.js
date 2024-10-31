@@ -2115,6 +2115,199 @@ export const art_directions = [
   },
 ];
 
+export const genres = {
+  epika: [
+    {
+      id: 3,
+      question: "Epos",
+      answer: [
+        "Rozsáhlá veršovaná skladba, která chronologicky zachycuje vyprávěné události, jež jsou spojeny jednou či několika postavami",
+        "(žánrové varianty: hrdinský, rytířský, duchovní epos).",
+      ],
+    },
+    {
+      id: 4,
+      question: "Román",
+      answer: [
+        "Rozsáhlé epické vyprávění s mnoha postavami v delším časovém úseku.",
+      ],
+    },
+    {
+      id: 6,
+      question: "Povídka",
+      answer: [
+        "příběh s relativně jednoduchým dějem a několika postavami, děj je méně rozvětvený než u románu.",
+      ],
+    },
+    {
+      id: 7,
+      question: "Novela",
+      answer: [
+        "Prozaický útvar, středního nebo kratšího rozsahu",
+        "Zakladatel Giovanni Boccaccio",
+      ],
+    },
+    {
+      id: 9,
+      question: "Pohádka",
+      answer: [
+        "Příběh s nadpřirozenými prvky, souboj dobra a zla, morální poučení, končí šťastně",
+      ],
+    },
+    {
+      id: 5,
+      question: "Legenda",
+      answer: [""],
+    },
+    {
+      id: 8,
+      question: "Romaneto",
+      answer: [
+        "žánrová varianta novely, příběh s fantastickou a nevysvětlitelnou záhadou, která je postupně rozuzlována.",
+        "Zakladatelem J. Arbes.",
+      ],
+    },
+    {
+      id: 10,
+      question: "Pověst",
+      answer: ["", ""],
+    },
+    {
+      id: 11,
+      question: "Báje",
+      answer: [
+        "příběhy, v nichž lidé ztvárnili své představy o vzniku světa, o přírodních jevech a jejich příčinách.",
+      ],
+    },
+    {
+      id: 12,
+      question: "Bajka",
+      answer: [
+        "Alegorický příběh, v němž vystupují zvířata nebo jiné neživé předměty, má většinou poučení.",
+      ],
+    },
+  ],
+  lyrika: [
+    {
+      id: 1,
+      question: "Píseň",
+      answer: ["Skladba určená ke zpěvu"],
+    },
+    {
+      id: 2,
+      question: "Óda",
+      answer: ["Oslavná báseň, oslavuje hrdiny, události, vlastnosti"],
+    },
+    {
+      id: 4,
+      question: "Elegie",
+      answer: ["Žalozpěv, báseň smutného charakteru"],
+    },
+    {
+      id: 5,
+      question: "Epitaf",
+      answer: ["Náhrobní nápis"],
+    },
+    {
+      id: 6,
+      question: "Epigram",
+      answer: ["Krátká satirická báseň vyjadřujíci myšlenku"],
+    },
+    {
+      id: 7,
+      question: "Pásmo",
+      answer: [""],
+    },
+    {
+      id: 3,
+      question: "Hymnus",
+      answer: ["Chvalozpěv"],
+    },
+    {
+      id: 8,
+      question: "Sonet",
+      answer: [""],
+    },
+  ],
+};
+
+export const tropy = [
+  {
+    id: 1,
+    name: "Metafora",
+    description:
+      "Přenesení významu na základě vnější podobnosti (př. zuby pily, žloutkové věnečky)",
+  },
+  {
+    id: 2,
+    name: "Metonymie",
+    description:
+      "Přenesení významu na základě vnitřní, věcné podobnosti (př. Vypil dvě sklenice., Četl Čapka., Objednal si plzeň.)",
+  },
+  {
+    id: 3,
+    name: "Personifikace",
+    description:
+      "Přenesení lidských vlastností na neživé předměty, rostliny, zvířata (př. Slunce se usmívá., Vítr si hrál s houpačkou.)",
+  },
+  {
+    id: 4,
+    name: "Přirovnání",
+    description:
+      "Porovnání dvou jevů na základě společné vlastnoti (př. Byl bílý jako sníh., Byl rychlý jako blesk.)",
+  },
+  {
+    id: 5,
+    name: "Oxymorón",
+    description:
+      "Protimluv, slova protichůdného významu (př. tichý křik, živá mrtvola, jasná tma)",
+  },
+  {
+    id: 6,
+    name: "Hyperbola",
+    description:
+      "Nadsázka (př. Mám hlad jako vlk., Byl to nejlepší den mého života., Trvalo to nekonečno let.)",
+  },
+  {
+    id: 7,
+    name: "Symbol",
+    description: "Zastupuje obecný pojem (př. růže - láska, kříž - křesťanství",
+  },
+];
+
+export const figury = [
+  {
+    id: 0,
+    name: "Založero na opakování slov",
+    description: "",
+  },
+  {
+    id: 1,
+    name: "Aliterace",
+    description: "Opakování slov začínajících stejnou hláskou",
+  },
+  {
+    id: 2,
+    name: "Anafora",
+    description: "Opakování stejného slova na začátcích veršů",
+  },
+  {
+    id: 3,
+    name: "Epifora",
+    description: "Opakování stejného slova na koncích veršů",
+  },
+  {
+    id: 4,
+    name: "Epizeuxis",
+    description: "Opakování stejného slova za sebou",
+  },
+  {
+    id: 5,
+    name: "Gradace",
+    description: "Stupňování (př. Jdu, běžím, letím. ",
+  },
+];
+
 export const ikt_questions = [
   {
     id: 1,
@@ -2535,7 +2728,42 @@ export const vap_questions = [
   {
     id: 1,
     question: "Algoritmizace",
-    answer: [],
+    answer: [
+      "- Algoritmizace je proces tvorby algoritmů.",
+      "- Algoritmus je přesný postup k řešení problému nebo úlohy.",
+      " ",
+      "&lVlastnosti algoritmu:",
+      "    - Konečnost - algoritmus musí skončit po konečném počtu kroků",
+      "    - Jednoznačnost - algoritmus musí být přesně definován",
+      "    - Efektivnost - algoritmus musí být efektivní, tzn. rychlý a úsporný",
+      "    - Vstupy - algoritmus by měl být použitelný pro jeden či více vstupů",
+      "    - Výstupy - algoritmus by měl poskytnout alespoň jeden výstup",
+      " ",
+      "&lZákladní kroky algoritmizace:",
+      "    - Analýza problému - pochopení problému a jeho požadavků",
+      "    - Návrh algoritmu - vytvořit přesný popis kroků, které je třeba provést",
+      "    - Zápis algoritmu - algoritmus lze zapsat v různých formách",
+      "    - Testování a ladění - ověření správnosti algoritmu a jeho úprava",
+      "    - Optimalizace - zlepšení efektivity, rychlosti algoritmu",
+      " ",
+      "&lFormy zápisu algoritmů:",
+      "    - Programovací algoritmy - algoritmy pro programování",
+      "    - Slovní algoritmy - algoritmy v textové podobě",
+      "    - Grafické algoritmy - algoritmy v grafické podobě",
+      "    - Pseudokód - zjednodušený zápis algoritmu",
+      "    - Flowchart - diagram reprezentující algoritmus",
+      " ",
+      "&lTypy algoritmů:",
+      "    - Sekvenční - postupné provádění kroků, jeden po druhém",
+      "    - Podmíněný - větvení programu podle podmínky",
+      "    - Cyklické algoritmy - opakování kódu",
+      " ",
+      "&lPříklady algoritmů:",
+      "    - Řazení (bubble sort, quick sort) - uspořádání prvků v poli",
+      "    - Vyhledávání (binární) - nalezení prvku v poli",
+      "    - Euklidův algoritmus - hledání největšího společného dělitele",
+      "    - Fibonacciho posloupnost - posloupnost čísel",
+    ],
   },
   {
     id: 2,
@@ -2549,22 +2777,22 @@ export const vap_questions = [
   },
   {
     id: 4,
-    question: "Java objekty",
+    question: "Java - objekty",
     answer: [],
   },
   {
     id: 5,
-    question: "Java-pole, kolekce",
+    question: "Java - pole, kolekce",
     answer: [],
   },
   {
     id: 6,
-    question: "Javasoubory",
+    question: "Java Soubory",
     answer: [],
   },
   {
     id: 7,
-    question: "Java-vlastnosti OOP - dědičnost, zapouzdření, polymorfismus",
+    question: "Java - vlastnosti OOP (dědičnost, zapouzdření, polymorfismus)",
     answer: [],
   },
   {
@@ -2584,7 +2812,7 @@ export const vap_questions = [
   },
   {
     id: 11,
-    question: "Android-XML, architektura aplikace, tvorba aplikace",
+    question: "Android - XML, architektura aplikace, tvorba aplikace",
     answer: [],
   },
   {
@@ -2656,198 +2884,5 @@ export const vap_questions = [
     id: 25,
     question: "Frameworky při vývoji webu",
     answer: [],
-  },
-];
-
-export const genres = {
-  epika: [
-    {
-      id: 3,
-      question: "Epos",
-      answer: [
-        "Rozsáhlá veršovaná skladba, která chronologicky zachycuje vyprávěné události, jež jsou spojeny jednou či několika postavami",
-        "(žánrové varianty: hrdinský, rytířský, duchovní epos).",
-      ],
-    },
-    {
-      id: 4,
-      question: "Román",
-      answer: [
-        "Rozsáhlé epické vyprávění s mnoha postavami v delším časovém úseku.",
-      ],
-    },
-    {
-      id: 6,
-      question: "Povídka",
-      answer: [
-        "příběh s relativně jednoduchým dějem a několika postavami, děj je méně rozvětvený než u románu.",
-      ],
-    },
-    {
-      id: 7,
-      question: "Novela",
-      answer: [
-        "Prozaický útvar, středního nebo kratšího rozsahu",
-        "Zakladatel Giovanni Boccaccio",
-      ],
-    },
-    {
-      id: 9,
-      question: "Pohádka",
-      answer: [
-        "Příběh s nadpřirozenými prvky, souboj dobra a zla, morální poučení, končí šťastně",
-      ],
-    },
-    {
-      id: 5,
-      question: "Legenda",
-      answer: [""],
-    },
-    {
-      id: 8,
-      question: "Romaneto",
-      answer: [
-        "žánrová varianta novely, příběh s fantastickou a nevysvětlitelnou záhadou, která je postupně rozuzlována.",
-        "Zakladatelem J. Arbes.",
-      ],
-    },
-    {
-      id: 10,
-      question: "Pověst",
-      answer: ["", ""],
-    },
-    {
-      id: 11,
-      question: "Báje",
-      answer: [
-        "příběhy, v nichž lidé ztvárnili své představy o vzniku světa, o přírodních jevech a jejich příčinách.",
-      ],
-    },
-    {
-      id: 12,
-      question: "Bajka",
-      answer: [
-        "Alegorický příběh, v němž vystupují zvířata nebo jiné neživé předměty, má většinou poučení.",
-      ],
-    },
-  ],
-  lyrika: [
-    {
-      id: 1,
-      question: "Píseň",
-      answer: ["Skladba určená ke zpěvu"],
-    },
-    {
-      id: 2,
-      question: "Óda",
-      answer: ["Oslavná báseň, oslavuje hrdiny, události, vlastnosti"],
-    },
-    {
-      id: 4,
-      question: "Elegie",
-      answer: ["Žalozpěv, báseň smutného charakteru"],
-    },
-    {
-      id: 5,
-      question: "Epitaf",
-      answer: ["Náhrobní nápis"],
-    },
-    {
-      id: 6,
-      question: "Epigram",
-      answer: ["Krátká satirická báseň vyjadřujíci myšlenku"],
-    },
-    {
-      id: 7,
-      question: "Pásmo",
-      answer: [""],
-    },
-    {
-      id: 3,
-      question: "Hymnus",
-      answer: ["Chvalozpěv"],
-    },
-    {
-      id: 8,
-      question: "Sonet",
-      answer: [""],
-    },
-  ],
-};
-
-export const tropy = [
-  {
-    id: 1,
-    name: "Metafora",
-    description:
-      "Přenesení významu na základě vnější podobnosti (př. zuby pily, žloutkové věnečky)",
-  },
-  {
-    id: 2,
-    name: "Metonymie",
-    description:
-      "Přenesení významu na základě vnitřní, věcné podobnosti (př. Vypil dvě sklenice., Četl Čapka., Objednal si plzeň.)",
-  },
-  {
-    id: 3,
-    name: "Personifikace",
-    description:
-      "Přenesení lidských vlastností na neživé předměty, rostliny, zvířata (př. Slunce se usmívá., Vítr si hrál s houpačkou.)",
-  },
-  {
-    id: 4,
-    name: "Přirovnání",
-    description:
-      "Porovnání dvou jevů na základě společné vlastnoti (př. Byl bílý jako sníh., Byl rychlý jako blesk.)",
-  },
-  {
-    id: 5,
-    name: "Oxymorón",
-    description:
-      "Protimluv, slova protichůdného významu (př. tichý křik, živá mrtvola, jasná tma)",
-  },
-  {
-    id: 6,
-    name: "Hyperbola",
-    description:
-      "Nadsázka (př. Mám hlad jako vlk., Byl to nejlepší den mého života., Trvalo to nekonečno let.)",
-  },
-  {
-    id: 7,
-    name: "Symbol",
-    description: "Zastupuje obecný pojem (př. růže - láska, kříž - křesťanství",
-  },
-];
-
-export const figury = [
-  {
-    id: 0,
-    name: "Založero na opakování slov",
-    description: "",
-  },
-  {
-    id: 1,
-    name: "Aliterace",
-    description: "Opakování slov začínajících stejnou hláskou",
-  },
-  {
-    id: 2,
-    name: "Anafora",
-    description: "Opakování stejného slova na začátcích veršů",
-  },
-  {
-    id: 3,
-    name: "Epifora",
-    description: "Opakování stejného slova na koncích veršů",
-  },
-  {
-    id: 4,
-    name: "Epizeuxis",
-    description: "Opakování stejného slova za sebou",
-  },
-  {
-    id: 5,
-    name: "Gradace",
-    description: "Stupňování (př. Jdu, běžím, letím. ",
   },
 ];

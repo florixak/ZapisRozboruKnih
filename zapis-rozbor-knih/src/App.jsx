@@ -22,6 +22,9 @@ const App = () => {
           <Link to="/ikt-questions" className={hoverStyle}>
             IKT Otázky
           </Link>
+          <Link to="/vap-questions" className={hoverStyle}>
+            VAP Otázky
+          </Link>
         </div>
       </div>
       <div className="border-2 border-black bg-white dark:bg-gray-600">
