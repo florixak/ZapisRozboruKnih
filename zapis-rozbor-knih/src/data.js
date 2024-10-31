@@ -2864,7 +2864,7 @@ export const vap_questions = [
   },
   {
     id: 18,
-    question: "JavaScript-DOM",
+    question: "JavaScript - DOM",
     answer: [],
   },
   {
@@ -2879,22 +2879,22 @@ export const vap_questions = [
   },
   {
     id: 21,
-    question: "PHP-objekty",
+    question: "PHP - objekty",
     answer: [],
   },
   {
     id: 22,
-    question: "PHP-přenos dat (GET, POST, SESSION, COOKIES)",
+    question: "PHP - přenos dat (GET, POST, SESSION, COOKIES)",
     answer: [],
   },
   {
     id: 23,
-    question: "PHP-bezpečnost aplikací",
+    question: "PHP - bezpečnost aplikací",
     answer: [],
   },
   {
     id: 24,
-    question: "PHP-externí data (soubory, databáze)",
+    question: "PHP - externí data (soubory, databáze)",
     answer: [],
   },
   {
