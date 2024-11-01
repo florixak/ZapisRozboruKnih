@@ -2729,12 +2729,12 @@ export const ikt_questions = [
   {
     id: 20,
     question: "Zařízení a technologie IoT",
-    answer: [],
+    answer: [""],
   },
   {
     id: 21,
     question: "Základní pojmy z elektrotechniky",
-    answer: [],
+    answer: [""],
   },
   {
     id: 22,
@@ -2744,17 +2744,17 @@ export const ikt_questions = [
   {
     id: 23,
     question: "Zpracování a vizualizace dat v IoT",
-    answer: [],
+    answer: [""],
   },
   {
     id: 24,
     question: "Přenosové sítě, protokoly a sběrnice pro IoT",
-    answer: [],
+    answer: [""],
   },
   {
     id: 25,
     question: "Programování IoT zařízení",
-    answer: [],
+    answer: [""],
   },
 ];
 
@@ -2797,62 +2797,115 @@ export const vap_questions = [
       "    - Vyhledávání (binární) - nalezení prvku v poli",
       "    - Euklidův algoritmus - hledání největšího společného dělitele",
       "    - Fibonacciho posloupnost - posloupnost čísel",
+      " ",
+      "- Vlastnosti algoritmu",
+      "- Zápis algoritmu",
+      "- Vývojové diagramy – základní značky, základní řídící struktury",
     ],
   },
   {
     id: 2,
     question: "Jazyk Java",
-    answer: [],
+    answer: [
+      "- Java – objektově orientovaný jazyk – vlastnosti Javy",
+      "- multiplatformnost",
+      "- JVM",
+      "- Čtyři základní platformy",
+      "- JRE/SDK",
+      "- Deklarace proměnných, konstant",
+      "- Datové typy, operátory, identifikátory",
+      "- Vstup/výstup z terminálu",
+      "- Komentáře, dokumentace",
+    ],
   },
   {
     id: 3,
-    question: "Java řídící struktury",
-    answer: [],
+    question: "Java - řídící struktury",
+    answer: ["- Větvení programu, logické spojky a operátory", "- cykly"],
   },
   {
     id: 4,
     question: "Java - objekty",
-    answer: [],
+    answer: [
+      "- Základní pojmy – třída, instance, atribut, metoda, konstruktor, …",
+      "- Práce s instancí",
+      "- Kvalifikace atributů a metod",
+      "- Deklarace konstruktoru, metod (+ přetěžování), atributů",
+    ],
   },
   {
     id: 5,
     question: "Java - pole, kolekce",
-    answer: [],
+    answer: [
+      "- Jednorozměrné pole",
+      "- Kolekce (ArrayList, HashSet) - metody compareTo(Object o), equals(Object o), třída Collections a její metody",
+    ],
   },
   {
     id: 6,
-    question: "Java Soubory",
-    answer: [],
+    question: "Java - soubory",
+    answer: [
+      "- Třída File – práce s adresáři a soubory",
+      "- Proudy znaků/bajtů",
+      "- Čtení dat ze souboru",
+      "- Zápis dat do souboru",
+      "- Třídy vlastností: BufferedWriter, PrintWriter, …",
+      "- Třída Scanner",
+    ],
   },
   {
     id: 7,
     question: "Java - vlastnosti OOP (dědičnost, zapouzdření, polymorfismus)",
-    answer: [],
+    answer: [
+      "- dědičnost - vytvoření potomka, klíčové slovo super, metody potomka, překrývání metod",
+      "- zapouzdření - přístup k datům objektu pouze na základě jeho metod (přístupové metody)",
+      "- polymorfismus - dědičnost, abstraktní třídy, rozhraní",
+    ],
   },
   {
     id: 8,
     question: "Java-GUI - knihovny awt a swing",
-    answer: [],
+    answer: [
+      "- tvorba formuláře – komponenty, layouty",
+      "- obsluha událostí – princip, vnitřní třídy",
+    ],
   },
   {
     id: 9,
     question: "Java grafika, práce s databází",
-    answer: [],
+    answer: [
+      "- třída Graphics, Graphics2D - grafická primitiva a jejich vykreslení",
+      "- připojení k databázi, tvorba a spuštění dotazu, zpracování výsledku",
+    ],
   },
   {
     id: 10,
     question: "Java FX",
-    answer: [],
+    answer: [
+      "- Vlastnosti, struktura projektu, Scene Builder",
+      "- FXML",
+      "- Základní kontejnery, prvky",
+      "- Postup při tvorbě aplikace",
+    ],
   },
   {
     id: 11,
     question: "Android - XML, architektura aplikace, tvorba aplikace",
-    answer: [],
+    answer: [
+      "- XML – element, atribut, způsob zápisu",
+      "- Architektura projektu v AndroidStudiu (java, layout, drawable, ….)",
+      "- Části aplikace – aktivita, poskytovatel obsahu, ….",
+      "- Postup při tvorbě aplikace – základní rozvržení, komponenty, metoda onClick(…)",
+    ],
   },
   {
     id: 12,
     question: "Testování, výjimky",
-    answer: [],
+    answer: [
+      "- Význam testování",
+      "- Unit testy",
+      "- Rozdělení výjimek, zachycení a ošetření výjimky",
+    ],
   },
   {
     id: 13,
