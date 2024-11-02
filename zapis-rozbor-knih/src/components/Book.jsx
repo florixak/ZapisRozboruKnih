@@ -15,7 +15,7 @@ const Book = () => {
   return (
     <div
       key={book.id}
-      className="m-auto flex h-full max-w-[1000px] flex-col items-start justify-center gap-10 border p-4 text-xl"
+      className="m-auto flex h-full max-w-[1000px] flex-col items-start justify-center gap-10 border p-4 pb-10 text-xl"
     >
       <h2 className="text-5xl">{book.name}</h2>
       <div>
@@ -64,18 +64,18 @@ const Book = () => {
           <span className="font-bold">Vypravěč:</span> {book.narrator}
         </p>
         <p>
-          <span className="font-bold">Shrnutí témat:</span>{" "}
+          <span className="font-bold">Téma:</span>{" "}
           {book.summary && book.summary}
         </p>
         <div>
-          <span className="font-bold">Téma:</span>{" "}
+          <span className="font-bold">Motivy:</span>{" "}
           {book.themes && book.themes.join(", ")}
         </div>
       </div>
 
       <div className="ml-5 flex flex-col gap-2">
-        <ul className="flex flex-row gap-2">
-          <span className="font-bold">Jazykové prostředky:</span>{" "}
+        <ul className="flex flex-row gap-1">
+          <span className="font-bold">Jazykové prostředky:</span>
           {book.dictionary &&
             book.dictionary.language.map((item, index) => {
               return (
@@ -85,7 +85,7 @@ const Book = () => {
               );
             })}
         </ul>
-        <div className="flex gap-2">
+        <div className="flex gap-1">
           <span className="font-bold">Tropy:</span>{" "}
           <ul className="flex flex-col">
             {book.dictionary &&
@@ -98,7 +98,7 @@ const Book = () => {
               })}
           </ul>
         </div>
-        <ul className="flex flex-row gap-2">
+        <ul className="flex flex-row gap-1">
           <span className="font-bold">Figury:</span>{" "}
           {book.dictionary &&
             book.dictionary.figury.map((item, index) => {
@@ -111,7 +111,7 @@ const Book = () => {
         </ul>
       </div>
 
-      <div className="ml-5 flex flex-col gap-1">
+      <div className="ml-5 flex flex-col">
         <span className="font-bold">Hlavní postavy:</span>
         <ul className="ml-5 list-disc text-lg">
           {book.main_characters &&
@@ -128,14 +128,6 @@ const Book = () => {
       <div className="ml-5 flex flex-col gap-5">
         <p className="flex flex-col">
           <span className="font-bold">Děj:</span> {book.plot_summary}
-        </p>
-        <p className="flex flex-col">
-          <span className="font-bold">Literární kontext:</span>{" "}
-          {book.literary_context}
-        </p>
-        <p className="flex flex-col">
-          <span className="font-bold">Hlavní myšlenka:</span>{" "}
-          {book.main_message}
         </p>
       </div>
     </div>

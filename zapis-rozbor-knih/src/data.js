@@ -331,7 +331,7 @@ export const books = [
     rhyme: "8stopý trochej",
     summary: "Muž truchlící nad smrtí své milé (Lenory)",
     themes: ["smrt", "osamělost", "ztráta", "smutek", "zlo"],
-    space_time: ["Mužův/básníkův pokoj", "prosinecový den, půlnoc"],
+    space_time: ["Mužův/básníkův pokoj", "prosincový/lednový den, v noci"],
     composition: "18 slok, 6 veršů",
     dictionary: {
       language: [
