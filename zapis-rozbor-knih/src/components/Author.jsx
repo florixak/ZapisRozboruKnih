@@ -21,7 +21,7 @@ const Author = () => {
       </h2>
       <div className="flex flex-col gap-10">
         <div className="flex flex-row gap-1">
-          <span className="font-bold underline">Období:</span>
+          <span className="font-bold text-green-300">Období:</span>
           <p
             className="cursor-pointer hover:text-blue-500 hover:underline"
             onClick={() => handleClick("/smery/" + author.art_direction)}
@@ -31,7 +31,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold underline">Život:</span>
+          <span className="font-bold text-green-300">Život:</span>
           <ul className="flex flex-col gap-1">
             {author.interest &&
               author.interest.map((interest) => (
@@ -43,7 +43,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold underline">Hlavní znaky:</span>
+          <span className="font-bold text-green-300">Hlavní znaky:</span>
           <ul>
             {author.main_chars &&
               author.main_chars.map((char) => (
@@ -67,7 +67,7 @@ const Author = () => {
         </div> */}
 
         <div>
-          <span className="font-bold underline">Díla:</span>
+          <span className="font-bold text-green-300">Díla:</span>
           <ul>
             {author.works &&
               author.works.map((work) => (
@@ -83,7 +83,7 @@ const Author = () => {
         </div>
 
         <div>
-          <span className="font-bold underline">Soudobí autoři:</span>
+          <span className="font-bold text-green-300">Soudobí autoři:</span>
           <ul>
             {author.authors &&
               author.authors.map((author) => (

@@ -354,6 +354,10 @@ export const books = [
         name: "Havran",
         description: "děsivý, tajemný, představuje zlo",
       },
+      {
+        name: "Lenora",
+        description: "Mužova zesnulá žena",
+      },
     ],
     plot_summary:
       "Vypravěč, osamělý, nemocný muž vzpomíná na svou zesnulou ženu Lenoru. V tom do jeho pokoje vletí havran, muž mu klade různé otázky, ale havranova odpověď je pokaždé stejná: 'never more'",
